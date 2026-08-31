@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Palqum — Build. Automate. Grow.</title>
+<meta name="description" content="Premium web design, AI automations, branding and marketing for businesses that want to grow.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Manrope:wght@400;500;600;700;800&family=Cairo:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ ICON SPRITE ============ -->
+<svg width="0" height="0" style="position:absolute">
+<symbol id="i-code" viewBox="0 0 24 24"><path d="M8 6 3 12l5 6M16 6l5 6-5 6"/></symbol>
+<symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2l1.8 5.6L19 9l-5.2 1.9L12 16l-1.8-5.1L5 9l5.2-1.4z"/></symbol>
+<symbol id="i-swatch" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="8" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="16" cy="12" r="1.6"/></symbol>
+<symbol id="i-mega" viewBox="0 0 24 24"><path d="M3 10.5v3a2 2 0 002 2h1l3.5 5V3.5L6 8.5H5a2 2 0 00-2 2z"/><path d="M13.5 7.5a4.5 4.5 0 010 9"/></symbol>
+<symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2.2"/><path d="M3 10.2h18"/><path d="M7 14.5h4"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.6 5.6 6.2.6-4.7 4.1 1.4 6.1L12 16.9 6.5 19.4l1.4-6.1L3.2 9.2l6.2-.6z"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 3a9 9 0 00-7.8 13.5L3 21l4.6-1.2A9 9 0 1012 3z"/><path d="M8.3 8.3c.3 2.4 3 5.1 5.4 5.4l1-1.3c.2-.2.5-.3.8-.2l1.8.7c.3.1.5.4.4.7-.3 1.5-1.7 2.5-3.2 2.4-3.9-.2-7.4-3.7-7.6-7.6-.1-1.5.9-2.9 2.4-3.2.3-.1.6.1.7.4l.7 1.8c.1.3 0 .6-.2.8z"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.4"/><path d="M3 7l9 6 9-6"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.7 7-11.8A7 7 0 105 9.2C5 14.3 12 21 12 21z"/><circle cx="12" cy="9.3" r="2.4"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.2v5l3.4 2"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v5.5c0 5-3 8-7 9.5-4-1.5-7-4.5-7-9.5V6z"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"/></symbol>
+</svg>
+
+<!-- ============ NAV ============ -->
+<div class="nav-wrap">
+  <nav class="nav" id="nav">
+    <a href="#" class="brand"><span class="mark">PQ</span><span>Palqum</span></a>
+    <div class="nav-links">
+      <a href="#services" data-i18n="nav.services">Services</a>
+      <a href="#why-us" data-i18n="nav.why">Why Us</a>
+      <a href="#results" data-i18n="nav.results">Results</a>
+      <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <button class="lang-btn" id="langBtn"><svg class="icon" width="14" height="14"><use href="#i-globe"/></svg><span id="langLabel">العربية</span></button>
+      <a href="#contact" class="btn btn-primary btn-sm" data-i18n="nav.cta"><span>Book a Free Call</span><svg class="icon" width="14" height="14"><use href="#i-arrow"/></svg></a>
+      <button class="hamburger" id="hamburger"><svg class="icon" width="18" height="18"><use href="#i-menu"/></svg></button>
+    </div>
+  </nav>
+</div>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-panel">
+    <button class="mobile-close" id="mobileClose"><svg class="icon" width="16" height="16"><use href="#i-close"/></svg></button>
+    <a href="#services" data-i18n="nav.services">Services</a>
+    <a href="#why-us" data-i18n="nav.why">Why Us</a>
+    <a href="#results" data-i18n="nav.results">Results</a>
+    <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+    <a href="#contact" class="btn btn-primary" data-i18n="nav.cta">Book a Free Call</a>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero-bg"><div class="dot-grid"></div><div class="blob blob-1"></div><div class="blob blob-2"></div></div>
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-badges">
+        <span class="badge" data-i18n="hero.badge1">Web Design · AI · Branding · Marketing</span>
+        <span class="badge pop"><svg class="icon" width="13" height="13"><use href="#i-shield"/></svg> <span data-i18n="hero.badge2">Registered UK Company · No. 17326987</span></span>
+      </div>
+      <h1 data-i18n="hero.title">Your Business Deserves a Website That <span class="hl">Actually Works</span></h1>
+      <p class="desc" data-i18n="hero.desc">We build high-performance websites, intelligent AI automations, and sharp brand identities for businesses that are serious about growing. No fluff. Just results.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1"><span>Book a Free 30-Min Call</span><svg class="icon" width="15" height="15"><use href="#i-arrow"/></svg></a>
+        <a href="#results" class="btn btn-ghost" data-i18n="hero.cta2">See Real Results</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b data-count="20">0</b>+<span data-i18n="hero.stat1">Projects Delivered</span></div>
+        <div class="stat"><b data-count="98">0</b>%<span data-i18n="hero.stat2">Client Satisfaction</span></div>
+        <div class="stat"><b data-count="5">0</b>+<span data-i18n="hero.stat3">Years in Business</span></div>
+        <div class="stat"><b data-count="30">0</b>+<span data-i18n="hero.stat4">Countries Served</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-visual-core"></div>
+      <div class="float-card card-1">
+        <div class="fc-label"><span class="fc-dot"></span><span data-i18n="hero.fc1label">Live Project</span></div>
+        <div class="fc-title" data-i18n="hero.fc1title">E-commerce Launch</div>
+        <div class="fc-val">↑ 312%</div>
+      </div>
+      <div class="float-card card-2">
+        <div class="fc-label"><span class="fc-dot"></span><span data-i18n="hero.fc2label">AI Performance</span></div>
+        <div class="fc-val">+847%</div>
+        <div class="fc-title" data-i18n="hero.fc2title">Lead Generation</div>
+      </div>
+      <div class="float-card card-3">
+        <div class="fc-label"><svg class="icon" width="12" height="12"><use href="#i-check"/></svg><span data-i18n="hero.fc3label">Project Delivered</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ SERVICES ============ -->
+<section id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="services.eyebrow">What We Do</div>
+      <h2 data-i18n="services.title">Five Ways We Help Your Business Grow</h2>
+    </div>
+    <div class="grid grid-3" id="servicesGrid">
+      <div class="card reveal">
+        <div class="ic"><svg class="icon" width="22" height="22"><use href="#i-code"/></svg></div>
+        <h3 data-i18n="services.s1.title">Web Design &amp; Development</h3>
+        <p data-i18n="services.s1.desc">High-converting websites built for speed and growth</p>
+        <div class="tag-row">
+          <span class="tag" data-i18n="services.s1.t1">Custom Design</span>
+          <span class="tag" data-i18n="services.s1.t2">Mobile-First</span>
+          <span class="tag" data-i18n="services.s1.t3">SEO Optimised</span>
+        </div>
+        <a href="/web-development.php" class="card-link"><span data-i18n="services.learn">Learn More</span><svg class="icon" width="13" height="13"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg class="icon" width="22" height="22"><use href="#i-spark"/></svg></div>
+        <h3 data-i18n="services.s2.title">AI Automations</h3>
+        <p data-i18n="services.s2.desc">Intelligent systems that work while you sleep</p>
+        <div class="tag-row">
+          <span class="tag" data-i18n="services.s2.t1">Lead Qualification</span>
+          <span class="tag" data-i18n="services.s2.t2">24/7 Chatbots</span>
+          <span class="tag" data-i18n="services.s2.t3">CRM Integration</span>
+        </div>
+        <a href="/ai-automation.php" class="card-link"><span data-i18n="services.learn">Learn More</span><svg class="icon" width="13" height="13"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg class="icon" width="22" height="22"><use href="#i-swatch"/></svg></div>
+        <h3 data-i18n="services.s3.title">Branding &amp; Identity</h3>
+        <p data-i18n="services.s3.desc">Brands that get remembered and trusted</p>
+        <div class="tag-row">
+          <span class="tag" data-i18n="services.s3.t1">Logo Design</span>
+          <span class="tag" data-i18n="services.s3.t2">Brand Guidelines</span>
+          <span class="tag" data-i18n="services.s3.t3">Visual Identity</span>
+        </div>
+        <a href="/branding.php" class="card-link"><span data-i18n="services.learn">Learn More</span><svg class="icon" width="13" height="13"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg class="icon" width="22" height="22"><use href="#i-mega"/></svg></div>
+        <h3 data-i18n="services.s4.title">Digital Advertising</h3>
+        <p data-i18n="services.s4.desc">Data-driven campaigns that actually convert</p>
+        <div class="tag-row">
+          <span class="tag" data-i18n="services.s4.t1">Google Ads</span>
+          <span class="tag" data-i18n="services.s4.t2">Meta Ads</span>
+          <span class="tag" data-i18n="services.s4.t3">ROI Tracking</span>
+        </div>
+        <a href="/ads.php" class="card-link"><span data-i18n="services.learn">Learn More</span><svg class="icon" width="13" height="13"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg class="icon" width="22" height="22"><use href="#i-card"/></svg></div>
+        <h3 data-i18n="services.s5.title">POS Systems</h3>
+        <p data-i18n="services.s5.desc">Modern point-of-sale built for your business</p>
+        <div class="tag-row">
+          <span class="tag" data-i18n="services.s5.t1">Custom POS</span>
+          <span class="tag" data-i18n="services.s5.t2">Inventory</span>
+          <span class="tag" data-i18n="services.s5.t3">Reports</span>
+        </div>
+        <a href="/pos.php" class="card-link"><span data-i18n="services.learn">Learn More</span><svg class="icon" width="13" height="13"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section id="why-us">
+  <div class="container">
+    <div class="why-grid">
+      <div class="reveal">
+        <div class="eyebrow" data-i18n="why.eyebrow">Why Palqum</div>
+        <h2 data-i18n="why.title">Honest Work. Measurable Results.</h2>
+        <p class="section-head desc" style="margin-top:16px;max-width:48ch" data-i18n="why.desc">Most agencies promise the world, deliver a template, and disappear. We do the opposite - clear communication, transparent pricing, and results you can actually see in your numbers within 30 days.</p>
+        <div class="checklist">
+          <div class="check-item"><div class="ic"><svg class="icon" width="15" height="15"><use href="#i-check"/></svg></div><div><b data-i18n="why.c1">No Long Contracts</b><span data-i18n="why.c1s">Month to month, cancel anytime</span></div></div>
+          <div class="check-item"><div class="ic"><svg class="icon" width="15" height="15"><use href="#i-check"/></svg></div><div><b data-i18n="why.c2">Results in 30 Days</b><span data-i18n="why.c2s">Measurable impact fast</span></div></div>
+          <div class="check-item"><div class="ic"><svg class="icon" width="15" height="15"><use href="#i-check"/></svg></div><div><b data-i18n="why.c3">Direct Communication</b><span data-i18n="why.c3s">Always know what's happening</span></div></div>
+          <div class="check-item"><div class="ic"><svg class="icon" width="15" height="15"><use href="#i-check"/></svg></div><div><b data-i18n="why.c4">Built to Scale</b><span data-i18n="why.c4s">Grows with your business</span></div></div>
+          <div class="check-item"><div class="ic"><svg class="icon" width="15" height="15"><use href="#i-check"/></svg></div><div><b data-i18n="why.c5">Fixed Pricing</b><span data-i18n="why.c5s">No surprise invoices</span></div></div>
+          <div class="check-item"><div class="ic"><svg class="icon" width="15" height="15"><use href="#i-check"/></svg></div><div><b data-i18n="why.c6">24h Support</b><span data-i18n="why.c6s">Always someone available</span></div></div>
+        </div>
+      </div>
+      <div class="stat-panel reveal">
+        <div class="stat-hero">
+          <div class="label" data-i18n="why.rev">Average Revenue Growth</div>
+          <div class="value">+284%</div>
+          <div class="sub" data-i18n="why.revsub">within 90 days</div>
+          <div class="bar"><i></i></div>
+          <div class="sub" style="margin-top:8px" data-i18n="why.revsub2">78% of clients exceed target</div>
+        </div>
+        <div class="mini-stats">
+          <div class="mini-stat"><b>★ 4.9</b><span data-i18n="why.m1">Average Rating</span></div>
+          <div class="mini-stat"><b>24h</b><span data-i18n="why.m2">Avg. Response Time</span></div>
+          <div class="mini-stat"><b>100%</b><span data-i18n="why.m3">On-Time Delivery</span></div>
+          <div class="mini-stat"><b>3x</b><span data-i18n="why.m4">Avg. Lead Increase</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ UNDER THE HOOD ============ -->
+<section>
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow" style="justify-content:center" data-i18n="hood.eyebrow">Under the Hood</div>
+      <h2 data-i18n="hood.title">Everything Is Built on Purpose</h2>
+    </div>
+    <div class="hood-mock reveal">
+      <div class="hood-top">
+        <span class="hood-dot" style="background:#FF6159"></span><span class="hood-dot" style="background:#FFC02E"></span><span class="hood-dot" style="background:#28C93F"></span>
+        <div class="tabs"><span class="active">analytics.ts</span><span>automation.js</span><span>config.ts</span></div>
+      </div>
+      <div class="hood-body">
+        <ul class="hood-explorer">
+          <li class="ex-title" data-i18n="hood.explorer">EXPLORER</li>
+          <li class="active">📄 analytics.ts</li>
+          <li>⚡ automation.js</li>
+          <li>⚙️ config.ts</li>
+          <li>🗄️ schema.sql</li>
+        </ul>
+        <div class="hood-panel">
+          <div class="hood-stat"><div class="l" data-i18n="hood.s1">Total Revenue</div><div class="v">$84,230</div><div class="d">↑ 24.8%</div></div>
+          <div class="hood-stat"><div class="l" data-i18n="hood.s2">Conversions</div><div class="v">3,847</div><div class="d">↑ 18.2%</div></div>
+          <div class="hood-stat"><div class="l" data-i18n="hood.s3">Avg Session</div><div class="v">4m 32s</div><div class="d" data-i18n="hood.optimal">Optimal</div></div>
+          <div class="hood-chart">
+            <div class="l" data-i18n="hood.chart">Revenue - Last 12 Weeks</div>
+            <svg viewBox="0 0 400 80" width="100%" height="80" preserveAspectRatio="none">
+              <defs><linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#D8FA46" stop-opacity=".35"/><stop offset="100%" stop-color="#D8FA46" stop-opacity="0"/></linearGradient></defs>
+              <path d="M0,60 L35,55 L70,58 L105,42 L140,48 L175,30 L210,36 L245,20 L280,26 L315,14 L350,18 L400,6 L400,80 L0,80 Z" fill="url(#chartFill)"/>
+              <path d="M0,60 L35,55 L70,58 L105,42 L140,48 L175,30 L210,36 L245,20 L280,26 L315,14 L350,18 L400,6" fill="none" stroke="#D8FA46" stroke-width="2"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="hood-foot"><span data-i18n="hood.foot1">✓ No errors · TypeScript 5.3</span><span>UTF-8 · palqum v2.4.1</span></div>
+    </div>
+    <div class="hood-cta reveal">
+      <a href="#contact" class="btn btn-primary" data-i18n="hood.cta"><span>Let's build something like this for you</span><svg class="icon" width="15" height="15"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OUR WORK ============ -->
+<section id="work">
+  <div class="container">
+    <div class="section-head reveal" style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:20px;max-width:none;">
+      <div>
+        <div class="eyebrow" data-i18n="work.eyebrow">Our Work</div>
+        <h2 data-i18n="work.title">Projects That Speak for Themselves</h2>
+      </div>
+      <a href="/portfolio.php" class="btn btn-ghost btn-sm" data-i18n="work.seeall">See All Work</a>
+    </div>
+    <div class="work-grid">
+      <div class="work-card reveal">
+        <div class="work-thumb" style="background:linear-gradient(135deg,#4C3AA0,#7C5CFF)"><span>GoMedia Design Agency</span></div>
+        <div class="work-body"><div class="work-cat">Web</div><h3>GoMedia Design Agency</h3></div>
+      </div>
+      <div class="work-card reveal">
+        <div class="work-thumb" style="background:linear-gradient(135deg,#8C5A0E,#D8FA46)"><span>Lavanda Shisha Lounge</span></div>
+        <div class="work-body"><div class="work-cat">Web</div><h3>Lavanda Shisha Lounge</h3><div class="work-lift">+312%</div></div>
+      </div>
+      <div class="work-card reveal">
+        <div class="work-thumb" style="background:linear-gradient(135deg,#2F6B4F,#5B3FD6)"><span>DanialFactory Store</span></div>
+        <div class="work-body"><div class="work-cat">Web</div><h3>DanialFactory Store</h3><div class="work-lift">+152%</div></div>
+      </div>
+      <div class="work-card reveal">
+        <div class="work-thumb" style="background:linear-gradient(135deg,#3A5A88,#9C86FF)"><span>JB Carpentry Catalog</span></div>
+        <div class="work-body"><div class="work-cat">Web</div><h3>JB Carpentry Catalog</h3></div>
+      </div>
+      <div class="work-card reveal">
+        <div class="work-thumb" style="background:linear-gradient(135deg,#5B3FD6,#D8FA46)"><span>Jacob Qumsieh Portfolio</span></div>
+        <div class="work-body"><div class="work-cat">Web</div><h3>Jacob Qumsieh Portfolio</h3></div>
+      </div>
+      <div class="work-card reveal">
+        <div class="work-thumb" style="background:linear-gradient(135deg,#A6382B,#7C5CFF)"><span>Ibrahem Qumsieh Portfolio</span></div>
+        <div class="work-body"><div class="work-cat">Web</div><h3>Ibrahem Qumsieh Portfolio</h3></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESULTS ============ -->
+<section id="results">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow" style="justify-content:center" data-i18n="results.eyebrow">Proven Results</div>
+      <h2 data-i18n="results.title">Real Clients. Real Numbers.</h2>
+    </div>
+    <div class="results-grid">
+      <div class="result-card reveal">
+        <span class="tag" data-i18n="results.r1.tag">E-commerce</span>
+        <h3 data-i18n="results.r1.title">E-commerce Store</h3>
+        <div class="lift" data-i18n="results.r1.lift">+312% Revenue in 60 Days</div>
+        <p data-i18n="results.r1.desc">Rebuilt their Shopify theme and ran Meta campaigns targeting high-intent audiences.</p>
+        <div class="result-stats">
+          <div><b>+312%</b><span data-i18n="results.r1.s1">Revenue</span></div>
+          <div><b>4.8%</b><span data-i18n="results.r1.s2">Conversion Rate</span></div>
+          <div><b>6.2x</b><span data-i18n="results.r1.s3">ROAS</span></div>
+        </div>
+      </div>
+      <div class="result-card reveal">
+        <span class="tag" data-i18n="results.r2.tag">Restaurant Chain</span>
+        <h3 data-i18n="results.r2.title">Restaurant Chain</h3>
+        <div class="lift" data-i18n="results.r2.lift">+847% Lead Generation</div>
+        <p data-i18n="results.r2.desc">Deployed an AI chatbot combined with a Google Ads campaign for maximum reach.</p>
+        <div class="result-stats">
+          <div><b>+847%</b><span data-i18n="results.r2.s1">Leads/mo</span></div>
+          <div><b>-64%</b><span data-i18n="results.r2.s2">Cost per Lead</span></div>
+          <div><b>+210%</b><span data-i18n="results.r2.s3">Bookings</span></div>
+        </div>
+      </div>
+      <div class="result-card reveal">
+        <span class="tag" data-i18n="results.r3.tag">SaaS</span>
+        <h3 data-i18n="results.r3.title">SaaS Startup</h3>
+        <div class="lift" data-i18n="results.r3.lift">0→$40K MRR in 90 Days</div>
+        <p data-i18n="results.r3.desc">Full brand identity, landing page, and automation pipeline from zero to scale.</p>
+        <div class="result-stats">
+          <div><b>$40K</b><span data-i18n="results.r3.s1">MRR</span></div>
+          <div><b>2.1%</b><span data-i18n="results.r3.s2">Churn Rate</span></div>
+          <div><b>71</b><span data-i18n="results.r3.s3">NPS Score</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="results-cta reveal">
+      <a href="#contact" class="btn btn-primary" data-i18n="results.cta"><span>I Want Results Like These</span><svg class="icon" width="15" height="15"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="tmn.eyebrow">Social Proof</div>
+      <h2 data-i18n="tmn.title">Don't Take Our Word For It</h2>
+    </div>
+    <div class="tmn-track reveal">
+      <div class="tmn-card"><div class="stars">★★★★★</div><p data-i18n="tmn.q1">"Palqum transformed our online presence completely. Revenue up 312% in just 60 days."</p><div class="tmn-who"><div class="tmn-avatar">S</div><div><b data-i18n="tmn.n1">Sarah K.</b><span data-i18n="tmn.r1">E-commerce Owner</span></div></div></div>
+      <div class="tmn-card"><div class="stars">★★★★★</div><p data-i18n="tmn.q2">"The AI automation they built saves us 40 hours a week. Absolute game changer."</p><div class="tmn-who"><div class="tmn-avatar">M</div><div><b data-i18n="tmn.n2">Mohammed A.</b><span data-i18n="tmn.r2">Operations Director</span></div></div></div>
+      <div class="tmn-card"><div class="stars">★★★★★</div><p data-i18n="tmn.q3">"Best investment we've made. Beautiful design, fast delivery, real results."</p><div class="tmn-who"><div class="tmn-avatar">D</div><div><b data-i18n="tmn.n3">David L.</b><span data-i18n="tmn.r3">SaaS Founder</span></div></div></div>
+      <div class="tmn-card"><div class="stars">★★★★★</div><p data-i18n="tmn.q4">"They didn't just build a website - they built a sales machine."</p><div class="tmn-who"><div class="tmn-avatar">A</div><div><b data-i18n="tmn.n4">Aisha R.</b><span data-i18n="tmn.r4">Marketing Manager</span></div></div></div>
+      <div class="tmn-card"><div class="stars">★★★★★</div><p data-i18n="tmn.q5">"Communication was impeccable. Always knew what was happening. Delivered early."</p><div class="tmn-who"><div class="tmn-avatar">C</div><div><b data-i18n="tmn.n5">Carlos M.</b><span data-i18n="tmn.r5">Restaurant Owner</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND (mid) ============ -->
+<section style="padding-block:40px 100px">
+  <div class="container">
+    <div class="cta-band reveal">
+      <a href="#contact" class="btn btn-primary" data-i18n="cta1.btn"><span>Book a Free 30-Min Call</span><svg class="icon" width="15" height="15"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section id="pricing">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow" style="justify-content:center" data-i18n="pricing.eyebrow">Pricing</div>
+      <h2 data-i18n="pricing.title">Straight-Forward Pricing</h2>
+      <p class="desc" data-i18n="pricing.desc">No hidden fees. No long contracts. Cancel anytime.</p>
+    </div>
+    <div class="pricing-controls reveal">
+      <div class="tab-group" id="serviceTabs">
+        <button class="active" data-service="web" data-i18n="pricing.tab1">Web Design &amp; Dev</button>
+        <button data-service="ai" data-i18n="pricing.tab2">AI Automations</button>
+        <button data-service="brand" data-i18n="pricing.tab3">Branding &amp; Ads</button>
+        <button data-service="pos" data-i18n="pricing.tab4">POS Systems</button>
+      </div>
+      <div class="tab-group" id="currencyTabs">
+        <button class="active" data-cur="USD">USD</button>
+        <button data-cur="EUR">EUR</button>
+        <button data-cur="ILS">ILS ₪</button>
+      </div>
+    </div>
+    <div class="price-grid reveal" id="priceGrid"></div>
+    <p class="price-note" data-i18n="pricing.note">All plans include hosting setup, SSL certificate, and 30-day post-launch support. <a href="#contact">Request a Custom Quote →</a></p>
+  </div>
+</section>
+
+<!-- ============ CTA BAND 2 ============ -->
+<section style="padding-top:0">
+  <div class="container">
+    <div class="cta-band reveal">
+      <h2 data-i18n="cta2.title">Stop Leaving Revenue on the Table</h2>
+      <p data-i18n="cta2.desc">Every day without a high-converting website is revenue walking out the door. Let's fix that.</p>
+      <a href="#contact" class="btn btn-primary" data-i18n="cta2.btn"><span>Book a Free 30-Min Call</span><svg class="icon" width="15" height="15"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <div class="eyebrow" data-i18n="contact.eyebrow">Let's Talk</div>
+      <h2 data-i18n="contact.title">Book a Free 30-Minute Call</h2>
+      <p class="desc" data-i18n="contact.desc">No hard sales. Just an honest conversation about your business goals and whether we're the right fit to help you get there.</p>
+      <div class="contact-line"><span class="ic"><svg class="icon" width="17" height="17"><use href="#i-wa"/></svg></span><span>+972 56-921-4745 (WhatsApp)</span></div>
+      <div class="contact-line"><span class="ic"><svg class="icon" width="17" height="17"><use href="#i-mail"/></svg></span><span>Support@palqum.com</span></div>
+      <div class="contact-line"><span class="ic"><svg class="icon" width="17" height="17"><use href="#i-clock"/></svg></span><span data-i18n="contact.hours">Mon–Fri, 5 PM – 12 AM (Palestine Time)</span></div>
+      <div class="trust-row">
+        <span class="badge" data-i18n="contact.t1">🔒 SSL Secured</span>
+        <span class="badge" data-i18n="contact.t2">✉️ Zero spam</span>
+        <span class="badge" data-i18n="contact.t3">😊 120+ happy clients</span>
+      </div>
+    </div>
+    <div class="form-card reveal">
+      <h3 data-i18n="contact.form.title">Send Us a Message</h3>
+      <form id="contactForm">
+        <div class="form-grid">
+          <div class="field"><label data-i18n="contact.form.name">Name *</label><input type="text" required></div>
+          <div class="field"><label data-i18n="contact.form.biz">Business Name *</label><input type="text" required></div>
+        </div>
+        <div class="form-grid">
+          <div class="field"><label data-i18n="contact.form.email">Email *</label><input type="email" required></div>
+          <div class="field"><label data-i18n="contact.form.phone">WhatsApp / Phone</label><input type="tel"></div>
+        </div>
+        <div class="field">
+          <label data-i18n="contact.form.service">Service Interested In</label>
+          <select>
+            <option data-i18n="contact.form.opt0">Select a service…</option>
+            <option data-i18n="contact.form.opt1">Web Design &amp; Development</option>
+            <option data-i18n="contact.form.opt2">AI Automations</option>
+            <option data-i18n="contact.form.opt3">Branding &amp; Identity</option>
+            <option data-i18n="contact.form.opt4">Digital Advertising</option>
+            <option data-i18n="contact.form.opt5">POS Systems</option>
+            <option data-i18n="contact.form.opt6">Other / Not sure</option>
+          </select>
+        </div>
+        <div class="field"><label data-i18n="contact.form.msg">Message</label><textarea></textarea></div>
+        <label class="consent"><input type="checkbox" required><span data-i18n="contact.form.consent">I consent to my data being processed and stored outside the UK/EEA, as described in the Privacy Policy. *</span></label>
+        <button type="submit" class="btn btn-primary" data-i18n="contact.form.submit"><span>Book My Free 30-Min Call</span><svg class="icon" width="15" height="15"><use href="#i-arrow"/></svg></button>
+        <div class="form-msg" id="formMsg" data-i18n="contact.form.sent">Thanks — we'll be in touch within 24 hours.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-about">
+      <a href="#" class="brand"><span class="mark">PQ</span><span>Palqum</span></a>
+      <p data-i18n="footer.about">Premium web design, AI automations, branding and marketing for businesses that want to grow.</p>
+      <div class="footer-tagline" data-i18n="footer.tagline">BUILD. AUTOMATE. GROW.</div>
+      <div class="badge pop" style="margin-top:16px"><svg class="icon" width="13" height="13"><use href="#i-shield"/></svg><span data-i18n="footer.reg">Registered UK Company · Verify on Companies House</span></div>
+    </div>
+    <div>
+      <h4 data-i18n="footer.services">Services</h4>
+      <ul>
+        <li><a href="/web-development.php" data-i18n="footer.s1">Web Development</a></li>
+        <li><a href="/ai-automation.php" data-i18n="footer.s2">AI Automations</a></li>
+        <li><a href="/branding.php" data-i18n="footer.s3">Branding</a></li>
+        <li><a href="/ads.php" data-i18n="footer.s4">Digital Ads</a></li>
+        <li><a href="/pos.php" data-i18n="footer.s5">POS Systems</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.company">Company</h4>
+      <ul>
+        <li><a href="/portfolio.php" data-i18n="footer.c1">Portfolio</a></li>
+        <li><a href="#contact" data-i18n="footer.c2">Contact</a></li>
+        <li><a href="/privacy.php" data-i18n="footer.c3">Privacy Policy</a></li>
+        <li><a href="/terms.php" data-i18n="footer.c4">Terms of Service</a></li>
+        <li><a href="/cookies.php" data-i18n="footer.c5">Cookie Policy</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.touch">Get in Touch</h4>
+      <div class="contact-line" style="margin-top:0"><span class="ic"><svg class="icon" width="15" height="15"><use href="#i-mail"/></svg></span><span style="font-size:14px">Support@palqum.com</span></div>
+      <div class="contact-line"><span class="ic"><svg class="icon" width="15" height="15"><use href="#i-wa"/></svg></span><span style="font-size:14px">+972 56-921-4745</span></div>
+      <div class="contact-line"><span class="ic"><svg class="icon" width="15" height="15"><use href="#i-pin"/></svg></span><span style="font-size:13.5px">128 City Road, London, EC1V 2NX, United Kingdom</span></div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span data-i18n="footer.copy">© 2026 Palqum LTD. All rights reserved. Company No. 17326987, registered in England &amp; Wales.</span>
+    <span data-i18n="footer.made">Made with ❤️ for businesses that mean business</span>
+  </div>
+</footer>
+
+<a href="https://wa.me/972569214745" target="_blank" rel="noopener" class="fab" aria-label="WhatsApp"><svg class="icon" width="26" height="26"><use href="#i-wa"/></svg></a>
+
+<script src="js/common.js"></script>
+<script>
+/* ============ I18N ============ */
+window.I18N = {
+en:{
+"nav.services":"Services","nav.why":"Why Us","nav.results":"Results","nav.pricing":"Pricing","nav.contact":"Contact","nav.cta":"<span>Book a Free Call</span>",
+"hero.badge1":"Web Design · AI · Branding · Marketing","hero.badge2":"Registered UK Company · No. 17326987",
+"hero.title":"Your Business Deserves a Website That <span class=\"hl\">Actually Works</span>",
+"hero.desc":"We build high-performance websites, intelligent AI automations, and sharp brand identities for businesses that are serious about growing. No fluff. Just results.",
+"hero.cta1":"<span>Book a Free 30-Min Call</span>","hero.cta2":"See Real Results",
+"hero.stat1":"Projects Delivered","hero.stat2":"Client Satisfaction","hero.stat3":"Years in Business","hero.stat4":"Countries Served",
+"hero.fc1label":"Live Project","hero.fc1title":"E-commerce Launch","hero.fc2label":"AI Performance","hero.fc2title":"Lead Generation","hero.fc3label":"Project Delivered",
+"services.eyebrow":"What We Do","services.title":"Five Ways We Help Your Business Grow","services.learn":"Learn More",
+"services.s1.title":"Web Design &amp; Development","services.s1.desc":"High-converting websites built for speed and growth","services.s1.t1":"Custom Design","services.s1.t2":"Mobile-First","services.s1.t3":"SEO Optimised",
+"services.s2.title":"AI Automations","services.s2.desc":"Intelligent systems that work while you sleep","services.s2.t1":"Lead Qualification","services.s2.t2":"24/7 Chatbots","services.s2.t3":"CRM Integration",
+"services.s3.title":"Branding &amp; Identity","services.s3.desc":"Brands that get remembered and trusted","services.s3.t1":"Logo Design","services.s3.t2":"Brand Guidelines","services.s3.t3":"Visual Identity",
+"services.s4.title":"Digital Advertising","services.s4.desc":"Data-driven campaigns that actually convert","services.s4.t1":"Google Ads","services.s4.t2":"Meta Ads","services.s4.t3":"ROI Tracking",
+"services.s5.title":"POS Systems","services.s5.desc":"Modern point-of-sale built for your business","services.s5.t1":"Custom POS","services.s5.t2":"Inventory","services.s5.t3":"Reports",
+"why.eyebrow":"Why Palqum","why.title":"Honest Work. Measurable Results.",
+"why.desc":"Most agencies promise the world, deliver a template, and disappear. We do the opposite - clear communication, transparent pricing, and results you can actually see in your numbers within 30 days.",
+"why.c1":"No Long Contracts","why.c1s":"Month to month, cancel anytime","why.c2":"Results in 30 Days","why.c2s":"Measurable impact fast",
+"why.c3":"Direct Communication","why.c3s":"Always know what's happening","why.c4":"Built to Scale","why.c4s":"Grows with your business",
+"why.c5":"Fixed Pricing","why.c5s":"No surprise invoices","why.c6":"24h Support","why.c6s":"Always someone available",
+"why.rev":"Average Revenue Growth","why.revsub":"within 90 days","why.revsub2":"78% of clients exceed target",
+"why.m1":"Average Rating","why.m2":"Avg. Response Time","why.m3":"On-Time Delivery","why.m4":"Avg. Lead Increase",
+"hood.eyebrow":"Under the Hood","hood.title":"Everything Is Built on Purpose","hood.explorer":"EXPLORER",
+"hood.s1":"Total Revenue","hood.s2":"Conversions","hood.s3":"Avg Session","hood.optimal":"Optimal","hood.chart":"Revenue - Last 12 Weeks",
+"hood.foot1":"✓ No errors · TypeScript 5.3","hood.cta":"<span>Let's build something like this for you</span>",
+"work.eyebrow":"Our Work","work.title":"Projects That Speak for Themselves","work.seeall":"See All Work",
+"results.eyebrow":"Proven Results","results.title":"Real Clients. Real Numbers.",
+"results.r1.tag":"E-commerce","results.r1.title":"E-commerce Store","results.r1.lift":"+312% Revenue in 60 Days","results.r1.desc":"Rebuilt their Shopify theme and ran Meta campaigns targeting high-intent audiences.","results.r1.s1":"Revenue","results.r1.s2":"Conversion Rate","results.r1.s3":"ROAS",
+"results.r2.tag":"Restaurant Chain","results.r2.title":"Restaurant Chain","results.r2.lift":"+847% Lead Generation","results.r2.desc":"Deployed an AI chatbot combined with a Google Ads campaign for maximum reach.","results.r2.s1":"Leads/mo","results.r2.s2":"Cost per Lead","results.r2.s3":"Bookings",
+"results.r3.tag":"SaaS","results.r3.title":"SaaS Startup","results.r3.lift":"0→$40K MRR in 90 Days","results.r3.desc":"Full brand identity, landing page, and automation pipeline from zero to scale.","results.r3.s1":"MRR","results.r3.s2":"Churn Rate","results.r3.s3":"NPS Score",
+"results.cta":"<span>I Want Results Like These</span>",
+"tmn.eyebrow":"Social Proof","tmn.title":"Don't Take Our Word For It",
+"tmn.q1":"\"Palqum transformed our online presence completely. Revenue up 312% in just 60 days.\"","tmn.n1":"Sarah K.","tmn.r1":"E-commerce Owner",
+"tmn.q2":"\"The AI automation they built saves us 40 hours a week. Absolute game changer.\"","tmn.n2":"Mohammed A.","tmn.r2":"Operations Director",
+"tmn.q3":"\"Best investment we've made. Beautiful design, fast delivery, real results.\"","tmn.n3":"David L.","tmn.r3":"SaaS Founder",
+"tmn.q4":"\"They didn't just build a website - they built a sales machine.\"","tmn.n4":"Aisha R.","tmn.r4":"Marketing Manager",
+"tmn.q5":"\"Communication was impeccable. Always knew what was happening. Delivered early.\"","tmn.n5":"Carlos M.","tmn.r5":"Restaurant Owner",
+"cta1.btn":"<span>Book a Free 30-Min Call</span>",
+"pricing.eyebrow":"Pricing","pricing.title":"Straight-Forward Pricing","pricing.desc":"No hidden fees. No long contracts. Cancel anytime.",
+"pricing.tab1":"Web Design &amp; Dev","pricing.tab2":"AI Automations","pricing.tab3":"Branding &amp; Ads","pricing.tab4":"POS Systems",
+"pricing.note":"All plans include hosting setup, SSL certificate, and 30-day post-launch support. <a href=\"#contact\">Request a Custom Quote →</a>",
+"cta2.title":"Stop Leaving Revenue on the Table","cta2.desc":"Every day without a high-converting website is revenue walking out the door. Let's fix that.","cta2.btn":"<span>Book a Free 30-Min Call</span>",
+"contact.eyebrow":"Let's Talk","contact.title":"Book a Free 30-Minute Call","contact.desc":"No hard sales. Just an honest conversation about your business goals and whether we're the right fit to help you get there.",
+"contact.hours":"Mon–Fri, 5 PM – 12 AM (Palestine Time)","contact.t1":"🔒 SSL Secured","contact.t2":"✉️ Zero spam","contact.t3":"😊 120+ happy clients",
+"contact.form.title":"Send Us a Message","contact.form.name":"Name *","contact.form.biz":"Business Name *","contact.form.email":"Email *","contact.form.phone":"WhatsApp / Phone",
+"contact.form.service":"Service Interested In","contact.form.opt0":"Select a service…","contact.form.opt1":"Web Design &amp; Development","contact.form.opt2":"AI Automations","contact.form.opt3":"Branding &amp; Identity","contact.form.opt4":"Digital Advertising","contact.form.opt5":"POS Systems","contact.form.opt6":"Other / Not sure",
+"contact.form.msg":"Message","contact.form.consent":"I consent to my data being processed and stored outside the UK/EEA, as described in the Privacy Policy. *","contact.form.submit":"<span>Book My Free 30-Min Call</span>","contact.form.sent":"Thanks — we'll be in touch within 24 hours.",
+"footer.about":"Premium web design, AI automations, branding and marketing for businesses that want to grow.","footer.tagline":"BUILD. AUTOMATE. GROW.","footer.reg":"Registered UK Company · Verify on Companies House",
+"footer.services":"Services","footer.s1":"Web Development","footer.s2":"AI Automations","footer.s3":"Branding","footer.s4":"Digital Ads","footer.s5":"POS Systems",
+"footer.company":"Company","footer.c1":"Portfolio","footer.c2":"Contact","footer.c3":"Privacy Policy","footer.c4":"Terms of Service","footer.c5":"Cookie Policy",
+"footer.touch":"Get in Touch","footer.copy":"© 2026 Palqum LTD. All rights reserved. Company No. 17326987, registered in England &amp; Wales.","footer.made":"Made with ❤️ for businesses that mean business"
+},
+ar:{
+"nav.services":"الخدمات","nav.why":"لماذا نحن","nav.results":"النتائج","nav.pricing":"الأسعار","nav.contact":"تواصل معنا","nav.cta":"<span>احجز مكالمة مجانية</span>",
+"hero.badge1":"تصميم مواقع · ذكاء اصطناعي · هوية بصرية · تسويق","hero.badge2":"شركة مسجّلة في المملكة المتحدة · رقم 17326987",
+"hero.title":"عملك يستحق موقعًا إلكترونيًا <span class=\"hl\">يعمل فعلًا</span>",
+"hero.desc":"نصمم مواقع إلكترونية عالية الأداء، وأنظمة ذكاء اصطناعي ذكية، وهويات بصرية مميزة للشركات الجادة في النمو. بلا حشو. نتائج فقط.",
+"hero.cta1":"<span>احجز مكالمة مجانية 30 دقيقة</span>","hero.cta2":"شاهد نتائج حقيقية",
+"hero.stat1":"مشروع منجز","hero.stat2":"رضا العملاء","hero.stat3":"سنوات خبرة","hero.stat4":"دولة نخدمها",
+"hero.fc1label":"مشروع مباشر","hero.fc1title":"إطلاق متجر إلكتروني","hero.fc2label":"أداء الذكاء الاصطناعي","hero.fc2title":"توليد العملاء المحتملين","hero.fc3label":"تم تسليم المشروع",
+"services.eyebrow":"ماذا نقدّم","services.title":"خمس طرق نساعد بها عملك على النمو","services.learn":"اعرف المزيد",
+"services.s1.title":"تصميم وتطوير المواقع","services.s1.desc":"مواقع إلكترونية سريعة ومصمّمة لتحويل الزوار إلى عملاء","services.s1.t1":"تصميم مخصص","services.s1.t2":"أولوية للجوال","services.s1.t3":"مهيّأ لمحركات البحث",
+"services.s2.title":"أتمتة الذكاء الاصطناعي","services.s2.desc":"أنظمة ذكية تعمل حتى وأنت نائم","services.s2.t1":"تأهيل العملاء المحتملين","services.s2.t2":"محادثة آلية 24 ساعة","services.s2.t3":"ربط مع أنظمة CRM",
+"services.s3.title":"الهوية البصرية والعلامة التجارية","services.s3.desc":"علامات تجارية تُحفظ ويُوثق بها","services.s3.t1":"تصميم شعار","services.s3.t2":"دليل الهوية","services.s3.t3":"الهوية البصرية",
+"services.s4.title":"الإعلانات الرقمية","services.s4.desc":"حملات مبنية على البيانات تحقق نتائج فعلية","services.s4.t1":"إعلانات غوغل","services.s4.t2":"إعلانات ميتا","services.s4.t3":"تتبع العائد على الاستثمار",
+"services.s5.title":"أنظمة نقاط البيع","services.s5.desc":"نظام نقاط بيع حديث مصمم لعملك","services.s5.t1":"واجهة مخصصة","services.s5.t2":"إدارة المخزون","services.s5.t3":"تقارير",
+"why.eyebrow":"لماذا بالكم","why.title":"عمل صادق. نتائج قابلة للقياس.",
+"why.desc":"معظم الوكالات تعدك بكل شيء، ثم تسلّمك قالبًا جاهزًا وتختفي. نحن نفعل العكس تمامًا: تواصل واضح، أسعار شفافة، ونتائج تراها فعليًا في أرقامك خلال 30 يومًا.",
+"why.c1":"لا عقود طويلة","why.c1s":"اشتراك شهري، ألغِ في أي وقت","why.c2":"نتائج خلال 30 يومًا","why.c2s":"أثر ملموس بسرعة",
+"why.c3":"تواصل مباشر","why.c3s":"اعرف كل تفاصيل مشروعك أولًا بأول","why.c4":"مبني للنمو","why.c4s":"يكبر مع عملك",
+"why.c5":"أسعار ثابتة","why.c5s":"بلا فواتير مفاجئة","why.c6":"دعم على مدار الساعة","why.c6s":"هناك دائمًا من يجيبك",
+"why.rev":"متوسط نمو الإيرادات","why.revsub":"خلال 90 يومًا","why.revsub2":"78% من العملاء يتجاوزون هدفهم",
+"why.m1":"التقييم العام","why.m2":"متوسط زمن الرد","why.m3":"التسليم في الموعد","why.m4":"متوسط زيادة العملاء المحتملين",
+"hood.eyebrow":"خلف الكواليس","hood.title":"كل شيء مبني بغاية وهدف","hood.explorer":"الملفات",
+"hood.s1":"إجمالي الإيرادات","hood.s2":"التحويلات","hood.s3":"متوسط الجلسة","hood.optimal":"ممتاز","hood.chart":"الإيرادات - آخر 12 أسبوعًا",
+"hood.foot1":"✓ بلا أخطاء · TypeScript 5.3","hood.cta":"<span>لنبنِ لك شيئًا مشابهًا</span>",
+"work.eyebrow":"أعمالنا","work.title":"مشاريع تتحدث عن نفسها","work.seeall":"شاهد كل الأعمال",
+"results.eyebrow":"نتائج مثبتة","results.title":"عملاء حقيقيون. أرقام حقيقية.",
+"results.r1.tag":"متجر إلكتروني","results.r1.title":"متجر إلكتروني","results.r1.lift":"+312% في الإيرادات خلال 60 يومًا","results.r1.desc":"أعدنا بناء قالب المتجر على Shopify وأطلقنا حملات على ميتا تستهدف جمهورًا عالي الاهتمام.","results.r1.s1":"الإيرادات","results.r1.s2":"معدل التحويل","results.r1.s3":"العائد على الإنفاق الإعلاني",
+"results.r2.tag":"سلسلة مطاعم","results.r2.title":"سلسلة مطاعم","results.r2.lift":"+847% في توليد العملاء المحتملين","results.r2.desc":"أطلقنا روبوت محادثة ذكيًا إلى جانب حملة إعلانات غوغل لتحقيق أوسع انتشار.","results.r2.s1":"عميل محتمل / شهريًا","results.r2.s2":"تكلفة العميل المحتمل","results.r2.s3":"الحجوزات",
+"results.r3.tag":"شركة ناشئة","results.r3.title":"شركة SaaS ناشئة","results.r3.lift":"من صفر إلى 40 ألف $ إيراد شهري خلال 90 يومًا","results.r3.desc":"هوية بصرية كاملة، صفحة هبوط، ومسار أتمتة كامل من الصفر إلى النمو.","results.r3.s1":"الإيراد الشهري","results.r3.s2":"معدل التسرب","results.r3.s3":"مؤشر رضا العملاء",
+"results.cta":"<span>أريد نتائج مثل هذه</span>",
+"tmn.eyebrow":"آراء العملاء","tmn.title":"لا تأخذ كلامنا فقط",
+"tmn.q1":"«بالكم غيّرت حضورنا الرقمي بالكامل. ارتفعت إيراداتنا 312% خلال 60 يومًا فقط.»","tmn.n1":"سارة ك.","tmn.r1":"صاحبة متجر إلكتروني",
+"tmn.q2":"«نظام الأتمتة الذي بنوه لنا يوفر علينا 40 ساعة أسبوعيًا. تغيير جذري بكل معنى الكلمة.»","tmn.n2":"محمد أ.","tmn.r2":"مدير العمليات",
+"tmn.q3":"«أفضل استثمار قمنا به. تصميم جميل، تسليم سريع، ونتائج حقيقية.»","tmn.n3":"ديفيد ل.","tmn.r3":"مؤسس شركة SaaS",
+"tmn.q4":"«لم يبنوا لنا موقعًا فحسب، بل بنوا آلة مبيعات حقيقية.»","tmn.n4":"عائشة ر.","tmn.r4":"مديرة تسويق",
+"tmn.q5":"«التواصل كان ممتازًا بلا أي عيب. كنا نعرف كل تفاصيل العمل أولًا بأول. وسلّموا المشروع قبل الموعد.»","tmn.n5":"كارلوس م.","tmn.r5":"صاحب مطعم",
+"cta1.btn":"<span>احجز مكالمة مجانية 30 دقيقة</span>",
+"pricing.eyebrow":"الأسعار","pricing.title":"أسعار واضحة بلا تعقيد","pricing.desc":"بلا رسوم خفية. بلا عقود طويلة. ألغِ في أي وقت.",
+"pricing.tab1":"تصميم وتطوير المواقع","pricing.tab2":"أتمتة الذكاء الاصطناعي","pricing.tab3":"الهوية والإعلانات","pricing.tab4":"أنظمة نقاط البيع",
+"pricing.note":"جميع الباقات تشمل إعداد الاستضافة، شهادة SSL، ودعم لمدة 30 يومًا بعد الإطلاق. <a href=\"#contact\">اطلب عرض سعر مخصص ←</a>",
+"cta2.title":"لا تترك إيراداتك على الطاولة","cta2.desc":"كل يوم بلا موقع يحوّل الزوار إلى عملاء هو إيراد يفلت منك. دعنا نُصلح ذلك.","cta2.btn":"<span>احجز مكالمة مجانية 30 دقيقة</span>",
+"contact.eyebrow":"لنتحدث","contact.title":"احجز مكالمة مجانية لمدة 30 دقيقة","contact.desc":"بلا ضغط بيع. فقط حديث صادق عن أهداف عملك، ولنرَ إن كنا الفريق المناسب لتحقيقها.",
+"contact.hours":"الإثنين إلى الجمعة، 5 مساءً – 12 منتصف الليل (بتوقيت فلسطين)","contact.t1":"🔒 محمي بشهادة SSL","contact.t2":"✉️ بلا رسائل مزعجة","contact.t3":"😊 +120 عميل سعيد",
+"contact.form.title":"أرسل لنا رسالة","contact.form.name":"الاسم *","contact.form.biz":"اسم النشاط التجاري *","contact.form.email":"البريد الإلكتروني *","contact.form.phone":"واتساب / رقم الهاتف",
+"contact.form.service":"الخدمة التي تهمك","contact.form.opt0":"اختر خدمة…","contact.form.opt1":"تصميم وتطوير المواقع","contact.form.opt2":"أتمتة الذكاء الاصطناعي","contact.form.opt3":"الهوية البصرية","contact.form.opt4":"الإعلانات الرقمية","contact.form.opt5":"أنظمة نقاط البيع","contact.form.opt6":"أخرى / غير متأكد",
+"contact.form.msg":"الرسالة","contact.form.consent":"أوافق على معالجة وتخزين بياناتي خارج المملكة المتحدة/المنطقة الاقتصادية الأوروبية، كما هو موضح في سياسة الخصوصية. *","contact.form.submit":"<span>احجز مكالمتي المجانية</span>","contact.form.sent":"شكرًا لك — سنتواصل معك خلال 24 ساعة.",
+"footer.about":"تصميم مواقع احترافي، أتمتة بالذكاء الاصطناعي، هوية بصرية وتسويق للشركات الطموحة في النمو.","footer.tagline":"ابنِ. أَتمِت. انمُ.","footer.reg":"شركة مسجّلة في المملكة المتحدة · تحقق عبر Companies House",
+"footer.services":"الخدمات","footer.s1":"تطوير المواقع","footer.s2":"أتمتة الذكاء الاصطناعي","footer.s3":"الهوية البصرية","footer.s4":"الإعلانات الرقمية","footer.s5":"أنظمة نقاط البيع",
+"footer.company":"الشركة","footer.c1":"أعمالنا","footer.c2":"تواصل معنا","footer.c3":"سياسة الخصوصية","footer.c4":"شروط الخدمة","footer.c5":"سياسة الكوكيز",
+"footer.touch":"تواصل معنا","footer.copy":"© 2026 Palqum LTD. جميع الحقوق محفوظة. رقم الشركة 17326987، مسجّلة في إنجلترا وويلز.","footer.made":"صُنع بـ ❤️ للشركات الجادة في عملها"
+}
+};
+
+/* ============ HOMEPAGE PRICING (multi-service tabs) ============ */
+const SERVICE_PLANS = {
+  web:[
+    {id:'starter',price:799,featured:false,
+      en:{name:'Starter',desc:'Perfect for small businesses and personal brands.',feats:['5-page responsive website','Mobile-first design','Basic SEO setup','Contact form integration','30-day support']},
+      ar:{name:'الأساسية',desc:'مثالية للأعمال الصغيرة والعلامات الشخصية.',feats:['موقع متجاوب من 5 صفحات','تصميم يبدأ من الجوال','إعداد أساسي لمحركات البحث','نموذج تواصل مدمج','دعم لمدة 30 يومًا']}},
+    {id:'growth',price:1499,featured:true,
+      en:{name:'Growth',desc:'For growing businesses ready to convert visitors to customers.',feats:['10-page responsive website','Custom design system','Advanced SEO + schema markup','Google Analytics 4 setup','Speed optimisation','60-day support']},
+      ar:{name:'النمو',desc:'للأعمال النامية الجاهزة لتحويل الزوار إلى عملاء.',feats:['موقع متجاوب من 10 صفحات','نظام تصميم مخصص','تهيئة متقدمة + بيانات Schema','إعداد Google Analytics 4','تحسين سرعة الموقع','دعم لمدة 60 يومًا']}},
+    {id:'ent',price:2999,featured:false,
+      en:{name:'Enterprise',desc:'Full-scale web presence for ambitious businesses.',feats:['Unlimited pages','Custom CMS integration','E-commerce functionality','Advanced analytics dashboard','Performance audit','Priority support - 1 year']},
+      ar:{name:'المؤسسات',desc:'حضور رقمي شامل للأعمال الطموحة.',feats:['صفحات غير محدودة','ربط نظام إدارة محتوى مخصص','ميزات المتجر الإلكتروني','لوحة تحليلات متقدمة','تدقيق الأداء','دعم ذو أولوية لمدة سنة']}}
+  ],
+  ai:[
+    {id:'basic',price:499,featured:false,
+      en:{name:'Basic',desc:'Automate your most repetitive business task.',feats:['1 automation workflow','Email / form lead capture','Basic CRM sync','14-day support']},
+      ar:{name:'الأساسية',desc:'أتمتة أكثر مهامك التكرارية.',feats:['مسار أتمتة واحد','التقاط العملاء عبر البريد أو النماذج','مزامنة أساسية مع CRM','دعم لمدة 14 يومًا']}},
+    {id:'pro',price:999,featured:true,
+      en:{name:'Professional',desc:'Multi-channel automation for growing teams.',feats:['Up to 5 automation workflows','AI chatbot (24/7)','CRM full integration','Lead scoring & qualification','60-day support']},
+      ar:{name:'الاحترافية',desc:'أتمتة متعددة القنوات للفرق النامية.',feats:['حتى 5 مسارات أتمتة','روبوت محادثة ذكي على مدار الساعة','ربط كامل مع CRM','تقييم وتأهيل العملاء المحتملين','دعم لمدة 60 يومًا']}},
+    {id:'ent',price:null,featured:false,
+      en:{name:'Enterprise',desc:'Bespoke AI systems for complex operations.',feats:['Unlimited workflows','Custom AI model fine-tuning','API integrations (any stack)','Dedicated account manager','SLA guarantee']},
+      ar:{name:'المؤسسات',desc:'أنظمة ذكاء اصطناعي مخصصة للعمليات المعقدة.',feats:['مسارات غير محدودة','تدريب نماذج ذكاء اصطناعي مخصصة','تكامل عبر API مع أي نظام','مدير حساب مخصص','ضمان اتفاقية مستوى الخدمة']}}
+  ],
+  brand:[
+    {id:'ess',price:399,featured:false,
+      en:{name:'Essential',desc:'Core identity to get your brand off the ground.',feats:['Logo design (3 concepts)','Color palette','Typography system','Brand guidelines PDF']},
+      ar:{name:'الأساسية',desc:'الهوية الأساسية لانطلاق علامتك التجارية.',feats:['تصميم شعار (3 مفاهيم)','لوحة الألوان','نظام الخطوط','ملف دليل الهوية PDF']}},
+    {id:'complete',price:799,featured:true,
+      en:{name:'Complete',desc:'Full brand identity ready for every touchpoint.',feats:['Everything in Essential','Business card design','Social media kit','Brand voice guidelines','2 revision rounds']},
+      ar:{name:'الكاملة',desc:'هوية بصرية كاملة جاهزة لكل نقطة تواصل.',feats:['كل ما في الباقة الأساسية','تصميم بطاقة عمل','حزمة تصاميم لوسائل التواصل','دليل نبرة العلامة','جولتا تعديل']}},
+    {id:'full',price:1499,featured:false,
+      en:{name:'Full Suite',desc:'End-to-end brand transformation.',feats:['Everything in Complete','Brand strategy & positioning','Pitch deck template','Email signature system','Packaging design','Priority support']},
+      ar:{name:'المجموعة الكاملة',desc:'تحول شامل لهويتك التجارية من الألف إلى الياء.',feats:['كل ما في الباقة الكاملة','استراتيجية العلامة وتموضعها','قالب عرض تقديمي','نظام توقيع بريد إلكتروني','تصميم التغليف','دعم ذو أولوية']}}
+  ],
+  pos:[
+    {id:'single',price:599,featured:false,
+      en:{name:'Single Location',desc:'Everything one location needs to run smoothly.',feats:['POS software setup','Product catalogue import','Staff accounts (up to 5)','Basic reporting','30-day support']},
+      ar:{name:'فرع واحد',desc:'كل ما يحتاجه فرع واحد للعمل بسلاسة.',feats:['إعداد برنامج نقاط البيع','استيراد كتالوج المنتجات','حسابات موظفين (حتى 5)','تقارير أساسية','دعم لمدة 30 يومًا']}},
+    {id:'multi',price:999,featured:true,
+      en:{name:'Multi-Location',desc:'Centralised control across all your locations.',feats:['Up to 5 locations','Centralised inventory','Real-time reporting','Customer loyalty module','90-day support']},
+      ar:{name:'فروع متعددة',desc:'تحكم مركزي في جميع فروعك.',feats:['حتى 5 فروع','مخزون مركزي','تقارير لحظية','نظام ولاء العملاء','دعم لمدة 90 يومًا']}},
+    {id:'ent',price:null,featured:false,
+      en:{name:'Enterprise',desc:'Custom POS for large-scale retail and F&amp;B chains.',feats:['Unlimited locations','Custom integrations (ERP, etc.)','Dedicated account manager','Staff training included','SLA guarantee']},
+      ar:{name:'المؤسسات',desc:'نظام نقاط بيع مخصص لسلاسل التجزئة والمطاعم الكبرى.',feats:['فروع غير محدودة','تكاملات مخصصة (ERP وغيرها)','مدير حساب مخصص','تدريب الموظفين مشمول','ضمان اتفاقية مستوى الخدمة']}}
+  ]
+};
+let curService = 'web';
+
+function renderPricing(){
+  const grid = document.getElementById('priceGrid');
+  if(!grid) return;
+  grid.innerHTML = '';
+  SERVICE_PLANS[curService].forEach(plan=>{
+    const t = plan[currentLang];
+    const card = document.createElement('div');
+    card.className = 'price-card' + (plan.featured ? ' featured' : '');
+    const popLabel = currentLang === 'ar' ? 'الأكثر طلبًا' : 'Most Popular';
+    const oneTime = currentLang === 'ar' ? 'لمرة واحدة' : 'one-time';
+    const getStarted = currentLang === 'ar' ? 'ابدأ الآن' : 'Get Started';
+    card.innerHTML = `
+      ${plan.featured ? `<span class="pop-badge">${popLabel}</span>` : ''}
+      <h3>${t.name}</h3>
+      <div class="plan-desc">${t.desc}</div>
+      <div class="amount"><b>${fmtPrice(plan.price, curCurrency)}</b>${plan.price!==null ? `<span>/ ${oneTime}</span>` : ''}</div>
+      <ul>${t.feats.map(f=>`<li><svg class="icon" width="16" height="16"><use href="#i-check"/></svg><span>${f}</span></li>`).join('')}</ul>
+      <a href="#contact" class="btn ${plan.featured?'btn-primary':'btn-ghost'}"><span>${getStarted}</span><svg class="icon" width="14" height="14"><use href="#i-arrow"/></svg></a>
+    `;
+    grid.appendChild(card);
+  });
+}
+document.getElementById('serviceTabs').addEventListener('click', e=>{
+  const btn = e.target.closest('button'); if(!btn) return;
+  document.querySelectorAll('#serviceTabs button').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  curService = btn.getAttribute('data-service');
+  renderPricing();
+});
+document.getElementById('currencyTabs').addEventListener('click', e=>{
+  const btn = e.target.closest('button'); if(!btn) return;
+  document.querySelectorAll('#currencyTabs button').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  curCurrency = btn.getAttribute('data-cur');
+  renderPricing();
+});
+
+/* ============ CONTACT FORM (demo, no backend) ============ */
+document.getElementById('contactForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  document.getElementById('formMsg').classList.add('show');
+  this.reset();
+});
+
+/* ============ INIT ============ */
+window.onLangChange = renderPricing;
+renderPricing();
+</script>
+</body>
+</html>

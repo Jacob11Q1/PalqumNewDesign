@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>POS Systems — Palqum</title>
+<meta name="description" content="Modern POS built for your business. Custom interface, inventory management, real-time reports.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Manrope:wght@400;500;600;700;800&family=Cairo:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="nav-wrap">
+  <nav class="nav" id="nav">
+    <a href="/" class="brand"><span class="mark">PQ</span><span>Palqum</span></a>
+    <div class="nav-links">
+      <a href="/#services" data-i18n="nav.services">Services</a>
+      <a href="/#why-us" data-i18n="nav.why">Why Us</a>
+      <a href="/#results" data-i18n="nav.results">Results</a>
+      <a href="/#pricing" data-i18n="nav.pricing">Pricing</a>
+      <a href="/#contact" data-i18n="nav.contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <button class="lang-btn" id="langBtn"><svg class="icon" width="14" height="14"><use href="assets/icons.svg#i-globe"/></svg><span id="langLabel">العربية</span></button>
+      <a href="/#contact" class="btn btn-primary btn-sm" data-i18n="nav.cta"><span>Book a Free Call</span><svg class="icon" width="14" height="14"><use href="assets/icons.svg#i-arrow"/></svg></a>
+      <button class="hamburger" id="hamburger"><svg class="icon" width="18" height="18"><use href="assets/icons.svg#i-menu"/></svg></button>
+    </div>
+  </nav>
+</div>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-panel">
+    <button class="mobile-close" id="mobileClose"><svg class="icon" width="16" height="16"><use href="assets/icons.svg#i-close"/></svg></button>
+    <a href="/#services" data-i18n="nav.services">Services</a>
+    <a href="/#why-us" data-i18n="nav.why">Why Us</a>
+    <a href="/#results" data-i18n="nav.results">Results</a>
+    <a href="/#pricing" data-i18n="nav.pricing">Pricing</a>
+    <a href="/#contact" data-i18n="nav.contact">Contact</a>
+    <a href="/#contact" class="btn btn-primary" data-i18n="nav.cta">Book a Free Call</a>
+  </div>
+</div>
+
+<header class="hero service-hero">
+  <div class="hero-bg"><div class="dot-grid"></div><div class="blob blob-1"></div><div class="blob blob-2"></div></div>
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-badges">
+        <span class="badge" data-i18n="hero.badge1">POS Systems</span>
+        <span class="badge pop"><svg class="icon" width="13" height="13"><use href="assets/icons.svg#i-shield"/></svg><span data-i18n="hero.badge2">Registered UK Company · No. 17326987</span></span>
+      </div>
+      <h1 data-i18n="hero.title">Modern POS Built <span class="hl">for Your Business</span></h1>
+      <p class="desc" data-i18n="hero.desc">From single-location cafés to multi-branch retail chains - we build POS systems that are fast, reliable, and give you the data to make better decisions.</p>
+      <div class="hero-cta">
+        <a href="/#contact" class="btn btn-primary" data-i18n="hero.cta1"><span>Get a Free POS Demo</span><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-arrow"/></svg></a>
+        <a href="#included" class="btn btn-ghost" data-i18n="hero.cta2">See Features</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-visual-core"></div>
+      <div class="float-card card-1">
+        <div class="fc-label"><span class="fc-dot"></span><span data-i18n="hero.fc1label">Uptime Guarantee</span></div>
+        <div class="fc-val">99.9%</div>
+      </div>
+      <div class="float-card card-2">
+        <div class="fc-label"><svg class="icon" width="12" height="12"><use href="assets/icons.svg#i-bolt"/></svg><span data-i18n="hero.fc2label">Order Time Cut</span></div>
+        <div class="fc-val">-40%</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="included">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="feat.eyebrow">Features</div>
+      <h2 data-i18n="feat.title">Everything You Need to Run Your Business</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-card"/></svg></div><h3 data-i18n="feat.f1.t">Custom POS Interface</h3><p data-i18n="feat.f1.d">Clean, fast interface designed for your specific menu or product catalogue. Staff love using it.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-box"/></svg></div><h3 data-i18n="feat.f2.t">Inventory Management</h3><p data-i18n="feat.f2.d">Real-time stock levels, low-stock alerts, and automatic reorder triggers. Never run out again.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-chart"/></svg></div><h3 data-i18n="feat.f3.t">Real-Time Reports</h3><p data-i18n="feat.f3.d">Revenue, top products, peak hours, and staff performance - all in one dashboard.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-pin"/></svg></div><h3 data-i18n="feat.f4.t">Multi-Location Support</h3><p data-i18n="feat.f4.d">Manage unlimited locations from one central dashboard. Same menu, synced inventory, unified reports.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-gift"/></svg></div><h3 data-i18n="feat.f5.t">Customer Loyalty</h3><p data-i18n="feat.f5.d">Points system, discounts, and customer profiles built into your POS - no third-party app needed.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-plug"/></svg></div><h3 data-i18n="feat.f6.t">Integrations</h3><p data-i18n="feat.f6.d">Accounting software, delivery platforms, online orders - connected to your POS seamlessly.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="proc.eyebrow">Implementation</div>
+      <h2 data-i18n="proc.title">Up and Running in 7 Days</h2>
+    </div>
+    <div class="process-grid reveal">
+      <div class="process-step"><div class="num">01</div><h3 data-i18n="proc.s1.t">Discovery &amp; Requirements</h3><p data-i18n="proc.s1.d">We map your menu/products, staff structure, locations, and reporting needs in a single session.</p></div>
+      <div class="process-step"><div class="num">02</div><h3 data-i18n="proc.s2.t">System Configuration</h3><p data-i18n="proc.s2.d">We configure the POS software, import your product catalogue, and set up user accounts.</p></div>
+      <div class="process-step"><div class="num">03</div><h3 data-i18n="proc.s3.t">Hardware Setup</h3><p data-i18n="proc.s3.d">We advise on hardware (touchscreens, printers, card readers) and handle setup - remote or on-site.</p></div>
+      <div class="process-step"><div class="num">04</div><h3 data-i18n="proc.s4.t">Staff Training</h3><p data-i18n="proc.s4.d">Hands-on training for your team - typically 2-3 hours. We provide a video guide for new staff.</p></div>
+      <div class="process-step"><div class="num">05</div><h3 data-i18n="proc.s5.t">Go Live + Support</h3><p data-i18n="proc.s5.d">We're on standby for the first week. 90-day support window included in every plan.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="stats-row reveal">
+      <div class="stat-box"><b>30+</b><span data-i18n="stats.s1">POS Installations</span></div>
+      <div class="stat-box"><b>7 days</b><span data-i18n="stats.s2">Avg Implementation</span></div>
+      <div class="stat-box"><b>99.9%</b><span data-i18n="stats.s3">Uptime Guarantee</span></div>
+      <div class="stat-box"><b>40%</b><span data-i18n="stats.s4">Avg Order Time Reduction</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow" style="justify-content:center" data-i18n="pricing.eyebrow">Pricing</div>
+      <h2 data-i18n="pricing.title">POS System Pricing</h2>
+    </div>
+    <div class="pricing-controls reveal" style="justify-content:center">
+      <div class="tab-group" id="currencyTabs">
+        <button class="active" data-cur="USD">USD</button>
+        <button data-cur="EUR">EUR</button>
+        <button data-cur="ILS">ILS ₪</button>
+      </div>
+    </div>
+    <div class="price-grid reveal" id="priceGrid"></div>
+    <p class="price-note" data-i18n="pricing.note">POS systems include on-site setup (Palestine region) or remote setup guidance elsewhere.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="container">
+    <div class="cta-band reveal">
+      <h2 data-i18n="cta.title">Ready to Upgrade Your Point of Sale?</h2>
+      <p data-i18n="cta.desc">Free demo tailored to your business. No commitment, no jargon.</p>
+      <a href="/#contact" class="btn btn-primary" data-i18n="cta.btn"><span>Book a Free Demo</span><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-about">
+      <a href="/" class="brand"><span class="mark">PQ</span><span>Palqum</span></a>
+      <p data-i18n="footer.about">Premium web design, AI automations, branding and marketing for businesses that want to grow.</p>
+      <div class="footer-tagline" data-i18n="footer.tagline">BUILD. AUTOMATE. GROW.</div>
+      <div class="badge pop" style="margin-top:16px"><svg class="icon" width="13" height="13"><use href="assets/icons.svg#i-shield"/></svg><span data-i18n="footer.reg">Registered UK Company · Verify on Companies House</span></div>
+    </div>
+    <div>
+      <h4 data-i18n="footer.services">Services</h4>
+      <ul>
+        <li><a href="/web-development.php" data-i18n="footer.s1">Web Development</a></li>
+        <li><a href="/ai-automation.php" data-i18n="footer.s2">AI Automations</a></li>
+        <li><a href="/branding.php" data-i18n="footer.s3">Branding</a></li>
+        <li><a href="/ads.php" data-i18n="footer.s4">Digital Ads</a></li>
+        <li><a href="/pos.php" data-i18n="footer.s5">POS Systems</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.company">Company</h4>
+      <ul>
+        <li><a href="/portfolio.php" data-i18n="footer.c1">Portfolio</a></li>
+        <li><a href="/#contact" data-i18n="footer.c2">Contact</a></li>
+        <li><a href="/privacy.php" data-i18n="footer.c3">Privacy Policy</a></li>
+        <li><a href="/terms.php" data-i18n="footer.c4">Terms of Service</a></li>
+        <li><a href="/cookies.php" data-i18n="footer.c5">Cookie Policy</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.touch">Get in Touch</h4>
+      <div class="contact-line" style="margin-top:0"><span class="ic"><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-mail"/></svg></span><span style="font-size:14px">Support@palqum.com</span></div>
+      <div class="contact-line"><span class="ic"><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-wa"/></svg></span><span style="font-size:14px">+972 56-921-4745</span></div>
+      <div class="contact-line"><span class="ic"><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-pin"/></svg></span><span style="font-size:13.5px">128 City Road, London, EC1V 2NX, United Kingdom</span></div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span data-i18n="footer.copy">© 2026 Palqum LTD. All rights reserved. Company No. 17326987, registered in England &amp; Wales.</span>
+    <span data-i18n="footer.made">Made with ❤️ for businesses that mean business</span>
+  </div>
+</footer>
+
+<a href="https://wa.me/972569214745" target="_blank" rel="noopener" class="fab" aria-label="WhatsApp"><svg class="icon" width="26" height="26"><use href="assets/icons.svg#i-wa"/></svg></a>
+
+<script src="js/common.js"></script>
+<script>
+window.I18N = {
+en:{
+"nav.services":"Services","nav.why":"Why Us","nav.results":"Results","nav.pricing":"Pricing","nav.contact":"Contact","nav.cta":"<span>Book a Free Call</span>",
+"hero.badge1":"POS Systems","hero.badge2":"Registered UK Company · No. 17326987",
+"hero.title":"Modern POS Built <span class=\"hl\">for Your Business</span>",
+"hero.desc":"From single-location cafés to multi-branch retail chains - we build POS systems that are fast, reliable, and give you the data to make better decisions.",
+"hero.cta1":"<span>Get a Free POS Demo</span>","hero.cta2":"See Features",
+"hero.fc1label":"Uptime Guarantee","hero.fc2label":"Order Time Cut",
+"feat.eyebrow":"Features","feat.title":"Everything You Need to Run Your Business",
+"feat.f1.t":"Custom POS Interface","feat.f1.d":"Clean, fast interface designed for your specific menu or product catalogue. Staff love using it.",
+"feat.f2.t":"Inventory Management","feat.f2.d":"Real-time stock levels, low-stock alerts, and automatic reorder triggers. Never run out again.",
+"feat.f3.t":"Real-Time Reports","feat.f3.d":"Revenue, top products, peak hours, and staff performance - all in one dashboard.",
+"feat.f4.t":"Multi-Location Support","feat.f4.d":"Manage unlimited locations from one central dashboard. Same menu, synced inventory, unified reports.",
+"feat.f5.t":"Customer Loyalty","feat.f5.d":"Points system, discounts, and customer profiles built into your POS - no third-party app needed.",
+"feat.f6.t":"Integrations","feat.f6.d":"Accounting software, delivery platforms, online orders - connected to your POS seamlessly.",
+"proc.eyebrow":"Implementation","proc.title":"Up and Running in 7 Days",
+"proc.s1.t":"Discovery &amp; Requirements","proc.s1.d":"We map your menu/products, staff structure, locations, and reporting needs in a single session.",
+"proc.s2.t":"System Configuration","proc.s2.d":"We configure the POS software, import your product catalogue, and set up user accounts.",
+"proc.s3.t":"Hardware Setup","proc.s3.d":"We advise on hardware (touchscreens, printers, card readers) and handle setup - remote or on-site.",
+"proc.s4.t":"Staff Training","proc.s4.d":"Hands-on training for your team - typically 2-3 hours. We provide a video guide for new staff.",
+"proc.s5.t":"Go Live + Support","proc.s5.d":"We're on standby for the first week. 90-day support window included in every plan.",
+"stats.s1":"POS Installations","stats.s2":"Avg Implementation","stats.s3":"Uptime Guarantee","stats.s4":"Avg Order Time Reduction",
+"pricing.eyebrow":"Pricing","pricing.title":"POS System Pricing","pricing.note":"POS systems include on-site setup (Palestine region) or remote setup guidance elsewhere.",
+"cta.title":"Ready to Upgrade Your Point of Sale?","cta.desc":"Free demo tailored to your business. No commitment, no jargon.","cta.btn":"<span>Book a Free Demo</span>",
+"footer.about":"Premium web design, AI automations, branding and marketing for businesses that want to grow.","footer.tagline":"BUILD. AUTOMATE. GROW.","footer.reg":"Registered UK Company · Verify on Companies House",
+"footer.services":"Services","footer.s1":"Web Development","footer.s2":"AI Automations","footer.s3":"Branding","footer.s4":"Digital Ads","footer.s5":"POS Systems",
+"footer.company":"Company","footer.c1":"Portfolio","footer.c2":"Contact","footer.c3":"Privacy Policy","footer.c4":"Terms of Service","footer.c5":"Cookie Policy",
+"footer.touch":"Get in Touch","footer.copy":"© 2026 Palqum LTD. All rights reserved. Company No. 17326987, registered in England &amp; Wales.","footer.made":"Made with ❤️ for businesses that mean business"
+},
+ar:{
+"nav.services":"الخدمات","nav.why":"لماذا نحن","nav.results":"النتائج","nav.pricing":"الأسعار","nav.contact":"تواصل معنا","nav.cta":"<span>احجز مكالمة مجانية</span>",
+"hero.badge1":"أنظمة نقاط البيع","hero.badge2":"شركة مسجّلة في المملكة المتحدة · رقم 17326987",
+"hero.title":"نظام نقاط بيع حديث <span class=\"hl\">مصمم لعملك</span>",
+"hero.desc":"من المقاهي ذات الفرع الواحد إلى سلاسل التجزئة متعددة الفروع - نبني أنظمة نقاط بيع سريعة وموثوقة، وتمنحك البيانات لاتخاذ قرارات أفضل.",
+"hero.cta1":"<span>احصل على عرض تجريبي مجاني</span>","hero.cta2":"شاهد المزايا",
+"hero.fc1label":"ضمان التشغيل","hero.fc2label":"تقليص زمن الطلب",
+"feat.eyebrow":"المزايا","feat.title":"كل ما تحتاجه لإدارة عملك",
+"feat.f1.t":"واجهة نقاط بيع مخصصة","feat.f1.d":"واجهة نظيفة وسريعة مصممة خصيصًا لقائمتك أو كتالوج منتجاتك. يحبها الموظفون.",
+"feat.f2.t":"إدارة المخزون","feat.f2.d":"مستويات مخزون لحظية، تنبيهات نفاد، وإعادة طلب تلقائية. لن ينفد مخزونك مجددًا.",
+"feat.f3.t":"تقارير لحظية","feat.f3.d":"الإيرادات، أفضل المنتجات، ساعات الذروة، وأداء الموظفين - كل ذلك في لوحة واحدة.",
+"feat.f4.t":"دعم متعدد الفروع","feat.f4.d":"أدر عددًا غير محدود من الفروع من لوحة مركزية واحدة. قائمة موحدة، مخزون متزامن، تقارير موحدة.",
+"feat.f5.t":"ولاء العملاء","feat.f5.d":"نظام نقاط، خصومات، وملفات عملاء مدمجة في نظام نقاط البيع - بلا تطبيق خارجي.",
+"feat.f6.t":"التكاملات","feat.f6.d":"برامج المحاسبة، منصات التوصيل، الطلبات الإلكترونية - كلها متصلة بنظامك بسلاسة.",
+"proc.eyebrow":"التنفيذ","proc.title":"جاهز للعمل خلال 7 أيام",
+"proc.s1.t":"الاستكشاف والمتطلبات","proc.s1.d":"نرسم قائمتك/منتجاتك، هيكل الموظفين، الفروع، واحتياجات التقارير في جلسة واحدة.",
+"proc.s2.t":"إعداد النظام","proc.s2.d":"نُعدّ برنامج نقاط البيع، نستورد كتالوج منتجاتك، ونُنشئ حسابات المستخدمين.",
+"proc.s3.t":"إعداد الأجهزة","proc.s3.d":"نُرشدك في اختيار الأجهزة (شاشات لمس، طابعات، قارئات بطاقات) ونتولى الإعداد - عن بُعد أو في الموقع.",
+"proc.s4.t":"تدريب الموظفين","proc.s4.d":"تدريب عملي لفريقك - عادة 2-3 ساعات. نوفر دليل فيديو للموظفين الجدد.",
+"proc.s5.t":"الإطلاق والدعم","proc.s5.d":"نكون على أهبة الاستعداد خلال الأسبوع الأول. نافذة دعم لمدة 90 يومًا مشمولة في كل باقة.",
+"stats.s1":"تركيب نظام نقاط بيع","stats.s2":"متوسط مدة التنفيذ","stats.s3":"ضمان التشغيل","stats.s4":"متوسط تقليص زمن الطلب",
+"pricing.eyebrow":"الأسعار","pricing.title":"أسعار أنظمة نقاط البيع","pricing.note":"تشمل أنظمة نقاط البيع إعدادًا في الموقع (منطقة فلسطين) أو إرشادًا للإعداد عن بُعد في أماكن أخرى.",
+"cta.title":"جاهز لترقية نظام نقاط البيع لديك؟","cta.desc":"عرض تجريبي مجاني مصمم خصيصًا لعملك. بلا التزام وبلا تعقيد.","cta.btn":"<span>احجز عرضًا تجريبيًا مجانيًا</span>",
+"footer.about":"تصميم مواقع احترافي، أتمتة بالذكاء الاصطناعي، هوية بصرية وتسويق للشركات الطموحة في النمو.","footer.tagline":"ابنِ. أَتمِت. انمُ.","footer.reg":"شركة مسجّلة في المملكة المتحدة · تحقق عبر Companies House",
+"footer.services":"الخدمات","footer.s1":"تطوير المواقع","footer.s2":"أتمتة الذكاء الاصطناعي","footer.s3":"الهوية البصرية","footer.s4":"الإعلانات الرقمية","footer.s5":"أنظمة نقاط البيع",
+"footer.company":"الشركة","footer.c1":"أعمالنا","footer.c2":"تواصل معنا","footer.c3":"سياسة الخصوصية","footer.c4":"شروط الخدمة","footer.c5":"سياسة الكوكيز",
+"footer.touch":"تواصل معنا","footer.copy":"© 2026 Palqum LTD. جميع الحقوق محفوظة. رقم الشركة 17326987، مسجّلة في إنجلترا وويلز.","footer.made":"صُنع بـ ❤️ للشركات الجادة في عملها"
+}
+};
+
+window.PLANS = [
+  {id:'single',price:599,featured:false,
+    en:{name:'Single Location',desc:'Everything one location needs to run smoothly.',feats:['POS software setup','Product catalogue import','Staff accounts (up to 5)','Basic reporting','30-day support']},
+    ar:{name:'فرع واحد',desc:'كل ما يحتاجه فرع واحد للعمل بسلاسة.',feats:['إعداد برنامج نقاط البيع','استيراد كتالوج المنتجات','حسابات موظفين (حتى 5)','تقارير أساسية','دعم لمدة 30 يومًا']}},
+  {id:'multi',price:999,featured:true,
+    en:{name:'Multi-Location',desc:'Centralised control across all your locations.',feats:['Up to 5 locations','Centralised inventory','Real-time reporting','Customer loyalty module','90-day support']},
+    ar:{name:'فروع متعددة',desc:'تحكم مركزي في جميع فروعك.',feats:['حتى 5 فروع','مخزون مركزي','تقارير لحظية','نظام ولاء العملاء','دعم لمدة 90 يومًا']}},
+  {id:'ent',price:null,featured:false,
+    en:{name:'Enterprise',desc:'Custom POS for large-scale retail and F&amp;B chains.',feats:['Unlimited locations','Custom integrations (ERP, etc.)','Dedicated account manager','Staff training included','SLA guarantee']},
+    ar:{name:'المؤسسات',desc:'نظام نقاط بيع مخصص لسلاسل التجزئة والمطاعم الكبرى.',feats:['فروع غير محدودة','تكاملات مخصصة (ERP وغيرها)','مدير حساب مخصص','تدريب الموظفين مشمول','ضمان اتفاقية مستوى الخدمة']}}
+];
+</script>
+</body>
+</html>

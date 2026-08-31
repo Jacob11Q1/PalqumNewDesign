@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web Design &amp; Development — Palqum</title>
+<meta name="description" content="High-converting websites built for speed and growth. Custom design, mobile-first, SEO optimised.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Manrope:wght@400;500;600;700;800&family=Cairo:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="nav-wrap">
+  <nav class="nav" id="nav">
+    <a href="/" class="brand"><span class="mark">PQ</span><span>Palqum</span></a>
+    <div class="nav-links">
+      <a href="/#services" data-i18n="nav.services">Services</a>
+      <a href="/#why-us" data-i18n="nav.why">Why Us</a>
+      <a href="/#results" data-i18n="nav.results">Results</a>
+      <a href="/#pricing" data-i18n="nav.pricing">Pricing</a>
+      <a href="/#contact" data-i18n="nav.contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <button class="lang-btn" id="langBtn"><svg class="icon" width="14" height="14"><use href="assets/icons.svg#i-globe"/></svg><span id="langLabel">العربية</span></button>
+      <a href="/#contact" class="btn btn-primary btn-sm" data-i18n="nav.cta"><span>Book a Free Call</span><svg class="icon" width="14" height="14"><use href="assets/icons.svg#i-arrow"/></svg></a>
+      <button class="hamburger" id="hamburger"><svg class="icon" width="18" height="18"><use href="assets/icons.svg#i-menu"/></svg></button>
+    </div>
+  </nav>
+</div>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-panel">
+    <button class="mobile-close" id="mobileClose"><svg class="icon" width="16" height="16"><use href="assets/icons.svg#i-close"/></svg></button>
+    <a href="/#services" data-i18n="nav.services">Services</a>
+    <a href="/#why-us" data-i18n="nav.why">Why Us</a>
+    <a href="/#results" data-i18n="nav.results">Results</a>
+    <a href="/#pricing" data-i18n="nav.pricing">Pricing</a>
+    <a href="/#contact" data-i18n="nav.contact">Contact</a>
+    <a href="/#contact" class="btn btn-primary" data-i18n="nav.cta">Book a Free Call</a>
+  </div>
+</div>
+
+<header class="hero service-hero">
+  <div class="hero-bg"><div class="dot-grid"></div><div class="blob blob-1"></div><div class="blob blob-2"></div></div>
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-badges">
+        <span class="badge" data-i18n="hero.badge1">Web Design &amp; Development</span>
+        <span class="badge pop"><svg class="icon" width="13" height="13"><use href="assets/icons.svg#i-shield"/></svg><span data-i18n="hero.badge2">Registered UK Company · No. 17326987</span></span>
+      </div>
+      <h1 data-i18n="hero.title">Websites That <span class="hl">Convert Visitors to Customers</span></h1>
+      <p class="desc" data-i18n="hero.desc">We don't just build websites - we build revenue machines. Every pixel is intentional, every interaction designed to guide visitors toward action.</p>
+      <div class="hero-cta">
+        <a href="/#contact" class="btn btn-primary" data-i18n="hero.cta1"><span>Book a Free Call</span><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-arrow"/></svg></a>
+        <a href="#included" class="btn btn-ghost" data-i18n="hero.cta2">See What's Included</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-visual-core"></div>
+      <div class="float-card card-1">
+        <div class="fc-label"><span class="fc-dot"></span><span data-i18n="hero.fc1label">Live Project</span></div>
+        <div class="fc-title" data-i18n="hero.fc1title">GoMedia Design Agency</div>
+        <div class="fc-val">↑ 312%</div>
+      </div>
+      <div class="float-card card-2">
+        <div class="fc-label"><svg class="icon" width="12" height="12"><use href="assets/icons.svg#i-bolt"/></svg><span data-i18n="hero.fc2label">Load Time</span></div>
+        <div class="fc-val">&lt;2s</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="included">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="feat.eyebrow">What You Get</div>
+      <h2 data-i18n="feat.title">Built to Perform at Every Level</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-swatch"/></svg></div><h3 data-i18n="feat.f1.t">Custom Design</h3><p data-i18n="feat.f1.d">No templates. Every design is built from scratch to match your brand and your audience.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-phone"/></svg></div><h3 data-i18n="feat.f2.t">Mobile-First</h3><p data-i18n="feat.f2.d">60%+ of traffic is mobile. We design for small screens first, then scale up.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-bolt"/></svg></div><h3 data-i18n="feat.f3.t">Blazing Speed</h3><p data-i18n="feat.f3.d">Sub-2s load times. Google Core Web Vitals optimised. Speed is a conversion factor.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-search"/></svg></div><h3 data-i18n="feat.f4.t">SEO Optimised</h3><p data-i18n="feat.f4.d">Technical SEO baked in from day one - schema, sitemaps, canonical, meta.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-target"/></svg></div><h3 data-i18n="feat.f5.t">Conversion Focused</h3><p data-i18n="feat.f5.d">CTA placement, trust signals, social proof - every element earns its place.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-shield"/></svg></div><h3 data-i18n="feat.f6.t">Secure &amp; Reliable</h3><p data-i18n="feat.f6.d">SSL, input sanitisation, regular backups. Your site, protected.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="proc.eyebrow">Our Process</div>
+      <h2 data-i18n="proc.title">How We Build Your Site</h2>
+    </div>
+    <div class="process-grid reveal">
+      <div class="process-step"><div class="num">01</div><h3 data-i18n="proc.s1.t">Discovery Call</h3><p data-i18n="proc.s1.d">30 minutes to understand your business, goals, and audience. We ask the right questions.</p></div>
+      <div class="process-step"><div class="num">02</div><h3 data-i18n="proc.s2.t">Strategy &amp; Wireframes</h3><p data-i18n="proc.s2.d">We map out the site structure, user flows, and key conversion points before writing a line of code.</p></div>
+      <div class="process-step"><div class="num">03</div><h3 data-i18n="proc.s3.t">Design</h3><p data-i18n="proc.s3.d">High-fidelity mockups of every page. You review, we refine - up to 2 revision rounds.</p></div>
+      <div class="process-step"><div class="num">04</div><h3 data-i18n="proc.s4.t">Development</h3><p data-i18n="proc.s4.d">Clean, semantic HTML/PHP. No bloated page builders. Fast, secure, and maintainable.</p></div>
+      <div class="process-step"><div class="num">05</div><h3 data-i18n="proc.s5.t">Launch &amp; Handover</h3><p data-i18n="proc.s5.d">We deploy, test across devices, set up analytics, and hand over everything you need to run your site.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="stats-row reveal">
+      <div class="stat-box"><b>312%</b><span data-i18n="stats.s1">Avg Revenue Lift</span></div>
+      <div class="stat-box"><b>&lt;2s</b><span data-i18n="stats.s2">Target Load Time</span></div>
+      <div class="stat-box"><b>100%</b><span data-i18n="stats.s3">Mobile Optimised</span></div>
+      <div class="stat-box"><b>30 days</b><span data-i18n="stats.s4">Avg Delivery</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="proj.eyebrow">Recent Web Projects</div>
+      <h2 data-i18n="proj.title">Recent Web Projects</h2>
+    </div>
+    <div class="work-grid">
+      <div class="work-card reveal"><div class="work-thumb" style="background:linear-gradient(135deg,#4C3AA0,#7C5CFF)"><span>GoMedia Design Agency</span></div><div class="work-body"><div class="work-cat">Web</div><h3>GoMedia Design Agency</h3></div></div>
+      <div class="work-card reveal"><div class="work-thumb" style="background:linear-gradient(135deg,#8C5A0E,#D8FA46)"><span>Lavanda Shisha Lounge</span></div><div class="work-body"><div class="work-cat">Web</div><h3>Lavanda Shisha Lounge</h3><div class="work-lift">+312%</div></div></div>
+      <div class="work-card reveal"><div class="work-thumb" style="background:linear-gradient(135deg,#2F6B4F,#5B3FD6)"><span>DanialFactory Store</span></div><div class="work-body"><div class="work-cat">Web</div><h3>DanialFactory Store</h3><div class="work-lift">+152%</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow" style="justify-content:center" data-i18n="pricing.eyebrow">Pricing</div>
+      <h2 data-i18n="pricing.title">Web Development Pricing</h2>
+    </div>
+    <div class="pricing-controls reveal" style="justify-content:center">
+      <div class="tab-group" id="currencyTabs">
+        <button class="active" data-cur="USD">USD</button>
+        <button data-cur="EUR">EUR</button>
+        <button data-cur="ILS">ILS ₪</button>
+      </div>
+    </div>
+    <div class="price-grid reveal" id="priceGrid"></div>
+    <p class="price-note" data-i18n="pricing.note">All plans include hosting setup, SSL certificate, and 30-day post-launch support.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="container">
+    <div class="cta-band reveal">
+      <h2 data-i18n="cta.title">Ready for a Website That Works as Hard as You Do?</h2>
+      <p data-i18n="cta.desc">Free 30-minute call. No pressure. Just strategy.</p>
+      <a href="/#contact" class="btn btn-primary" data-i18n="cta.btn"><span>Book a Free 30-Min Call</span><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-about">
+      <a href="/" class="brand"><span class="mark">PQ</span><span>Palqum</span></a>
+      <p data-i18n="footer.about">Premium web design, AI automations, branding and marketing for businesses that want to grow.</p>
+      <div class="footer-tagline" data-i18n="footer.tagline">BUILD. AUTOMATE. GROW.</div>
+      <div class="badge pop" style="margin-top:16px"><svg class="icon" width="13" height="13"><use href="assets/icons.svg#i-shield"/></svg><span data-i18n="footer.reg">Registered UK Company · Verify on Companies House</span></div>
+    </div>
+    <div>
+      <h4 data-i18n="footer.services">Services</h4>
+      <ul>
+        <li><a href="/web-development.php" data-i18n="footer.s1">Web Development</a></li>
+        <li><a href="/ai-automation.php" data-i18n="footer.s2">AI Automations</a></li>
+        <li><a href="/branding.php" data-i18n="footer.s3">Branding</a></li>
+        <li><a href="/ads.php" data-i18n="footer.s4">Digital Ads</a></li>
+        <li><a href="/pos.php" data-i18n="footer.s5">POS Systems</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.company">Company</h4>
+      <ul>
+        <li><a href="/portfolio.php" data-i18n="footer.c1">Portfolio</a></li>
+        <li><a href="/#contact" data-i18n="footer.c2">Contact</a></li>
+        <li><a href="/privacy.php" data-i18n="footer.c3">Privacy Policy</a></li>
+        <li><a href="/terms.php" data-i18n="footer.c4">Terms of Service</a></li>
+        <li><a href="/cookies.php" data-i18n="footer.c5">Cookie Policy</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.touch">Get in Touch</h4>
+      <div class="contact-line" style="margin-top:0"><span class="ic"><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-mail"/></svg></span><span style="font-size:14px">Support@palqum.com</span></div>
+      <div class="contact-line"><span class="ic"><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-wa"/></svg></span><span style="font-size:14px">+972 56-921-4745</span></div>
+      <div class="contact-line"><span class="ic"><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-pin"/></svg></span><span style="font-size:13.5px">128 City Road, London, EC1V 2NX, United Kingdom</span></div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span data-i18n="footer.copy">© 2026 Palqum LTD. All rights reserved. Company No. 17326987, registered in England &amp; Wales.</span>
+    <span data-i18n="footer.made">Made with ❤️ for businesses that mean business</span>
+  </div>
+</footer>
+
+<a href="https://wa.me/972569214745" target="_blank" rel="noopener" class="fab" aria-label="WhatsApp"><svg class="icon" width="26" height="26"><use href="assets/icons.svg#i-wa"/></svg></a>
+
+<script src="js/common.js"></script>
+<script>
+window.I18N = {
+en:{
+"nav.services":"Services","nav.why":"Why Us","nav.results":"Results","nav.pricing":"Pricing","nav.contact":"Contact","nav.cta":"<span>Book a Free Call</span>",
+"hero.badge1":"Web Design &amp; Development","hero.badge2":"Registered UK Company · No. 17326987",
+"hero.title":"Websites That <span class=\"hl\">Convert Visitors to Customers</span>",
+"hero.desc":"We don't just build websites - we build revenue machines. Every pixel is intentional, every interaction designed to guide visitors toward action.",
+"hero.cta1":"<span>Book a Free Call</span>","hero.cta2":"See What's Included",
+"hero.fc1label":"Live Project","hero.fc1title":"GoMedia Design Agency","hero.fc2label":"Load Time",
+"feat.eyebrow":"What You Get","feat.title":"Built to Perform at Every Level",
+"feat.f1.t":"Custom Design","feat.f1.d":"No templates. Every design is built from scratch to match your brand and your audience.",
+"feat.f2.t":"Mobile-First","feat.f2.d":"60%+ of traffic is mobile. We design for small screens first, then scale up.",
+"feat.f3.t":"Blazing Speed","feat.f3.d":"Sub-2s load times. Google Core Web Vitals optimised. Speed is a conversion factor.",
+"feat.f4.t":"SEO Optimised","feat.f4.d":"Technical SEO baked in from day one - schema, sitemaps, canonical, meta.",
+"feat.f5.t":"Conversion Focused","feat.f5.d":"CTA placement, trust signals, social proof - every element earns its place.",
+"feat.f6.t":"Secure &amp; Reliable","feat.f6.d":"SSL, input sanitisation, regular backups. Your site, protected.",
+"proc.eyebrow":"Our Process","proc.title":"How We Build Your Site",
+"proc.s1.t":"Discovery Call","proc.s1.d":"30 minutes to understand your business, goals, and audience. We ask the right questions.",
+"proc.s2.t":"Strategy &amp; Wireframes","proc.s2.d":"We map out the site structure, user flows, and key conversion points before writing a line of code.",
+"proc.s3.t":"Design","proc.s3.d":"High-fidelity mockups of every page. You review, we refine - up to 2 revision rounds.",
+"proc.s4.t":"Development","proc.s4.d":"Clean, semantic HTML/PHP. No bloated page builders. Fast, secure, and maintainable.",
+"proc.s5.t":"Launch &amp; Handover","proc.s5.d":"We deploy, test across devices, set up analytics, and hand over everything you need to run your site.",
+"stats.s1":"Avg Revenue Lift","stats.s2":"Target Load Time","stats.s3":"Mobile Optimised","stats.s4":"Avg Delivery",
+"proj.eyebrow":"Recent Projects","proj.title":"Recent Web Projects",
+"pricing.eyebrow":"Pricing","pricing.title":"Web Development Pricing","pricing.note":"All plans include hosting setup, SSL certificate, and 30-day post-launch support.",
+"cta.title":"Ready for a Website That Works as Hard as You Do?","cta.desc":"Free 30-minute call. No pressure. Just strategy.","cta.btn":"<span>Book a Free 30-Min Call</span>",
+"footer.about":"Premium web design, AI automations, branding and marketing for businesses that want to grow.","footer.tagline":"BUILD. AUTOMATE. GROW.","footer.reg":"Registered UK Company · Verify on Companies House",
+"footer.services":"Services","footer.s1":"Web Development","footer.s2":"AI Automations","footer.s3":"Branding","footer.s4":"Digital Ads","footer.s5":"POS Systems",
+"footer.company":"Company","footer.c1":"Portfolio","footer.c2":"Contact","footer.c3":"Privacy Policy","footer.c4":"Terms of Service","footer.c5":"Cookie Policy",
+"footer.touch":"Get in Touch","footer.copy":"© 2026 Palqum LTD. All rights reserved. Company No. 17326987, registered in England &amp; Wales.","footer.made":"Made with ❤️ for businesses that mean business"
+},
+ar:{
+"nav.services":"الخدمات","nav.why":"لماذا نحن","nav.results":"النتائج","nav.pricing":"الأسعار","nav.contact":"تواصل معنا","nav.cta":"<span>احجز مكالمة مجانية</span>",
+"hero.badge1":"تصميم وتطوير المواقع","hero.badge2":"شركة مسجّلة في المملكة المتحدة · رقم 17326987",
+"hero.title":"مواقع إلكترونية <span class=\"hl\">تحوّل الزوار إلى عملاء</span>",
+"hero.desc":"نحن لا نبني مواقع فقط - نبني آلات لتحقيق الإيرادات. كل بكسل مقصود، وكل تفاعل مصمم لدفع الزائر نحو اتخاذ إجراء.",
+"hero.cta1":"<span>احجز مكالمة مجانية</span>","hero.cta2":"اطّلع على ما تشمله الباقة",
+"hero.fc1label":"مشروع مباشر","hero.fc1title":"GoMedia Design Agency","hero.fc2label":"سرعة التحميل",
+"feat.eyebrow":"ماذا تحصل عليه","feat.title":"مبني للأداء في كل التفاصيل",
+"feat.f1.t":"تصميم مخصص","feat.f1.d":"بلا قوالب جاهزة. كل تصميم يُبنى من الصفر ليعكس هويتك وجمهورك.",
+"feat.f2.t":"أولوية للجوال","feat.f2.d":"أكثر من 60% من الزيارات تأتي من الجوال. نصمم للشاشات الصغيرة أولًا ثم نوسّع.",
+"feat.f3.t":"سرعة فائقة","feat.f3.d":"زمن تحميل أقل من ثانيتين. مهيأ لمعايير Core Web Vitals من غوغل. السرعة عامل تحويل.",
+"feat.f4.t":"مهيّأ لمحركات البحث","feat.f4.d":"تهيئة تقنية لمحركات البحث منذ اليوم الأول - Schema، خرائط الموقع، الروابط الأساسية.",
+"feat.f5.t":"مركّز على التحويل","feat.f5.d":"مكان أزرار الدعوة لاتخاذ إجراء، إشارات الثقة، والدليل الاجتماعي - كل عنصر له دوره.",
+"feat.f6.t":"آمن وموثوق","feat.f6.d":"شهادة SSL، تنقية المدخلات، نسخ احتياطي دوري. موقعك في أمان.",
+"proc.eyebrow":"آلية عملنا","proc.title":"كيف نبني موقعك",
+"proc.s1.t":"مكالمة استكشافية","proc.s1.d":"30 دقيقة لفهم عملك وأهدافك وجمهورك. نطرح الأسئلة الصحيحة.",
+"proc.s2.t":"الاستراتيجية والمخططات الأولية","proc.s2.d":"نرسم هيكل الموقع، رحلة المستخدم، ونقاط التحويل الرئيسية قبل كتابة أي سطر برمجي.",
+"proc.s3.t":"التصميم","proc.s3.d":"نماذج تصميم عالية الدقة لكل صفحة. تراجعها ونحن نُنقّحها - حتى جولتي تعديل.",
+"proc.s4.t":"التطوير","proc.s4.d":"كود HTML/PHP نظيف ودلالي. بلا أدوات بناء صفحات مثقلة. سريع وآمن وقابل للصيانة.",
+"proc.s5.t":"الإطلاق والتسليم","proc.s5.d":"ننشر الموقع، نختبره على مختلف الأجهزة، نُعدّ التحليلات، ونسلّمك كل ما تحتاجه لإدارة موقعك.",
+"stats.s1":"متوسط ارتفاع الإيرادات","stats.s2":"زمن التحميل المستهدف","stats.s3":"مهيأ للجوال","stats.s4":"متوسط مدة التسليم",
+"proj.eyebrow":"مشاريع حديثة","proj.title":"مشاريع مواقع حديثة",
+"pricing.eyebrow":"الأسعار","pricing.title":"أسعار تصميم وتطوير المواقع","pricing.note":"جميع الباقات تشمل إعداد الاستضافة، شهادة SSL، ودعم لمدة 30 يومًا بعد الإطلاق.",
+"cta.title":"جاهز لموقع يعمل بجدّية بقدر جدّيتك؟","cta.desc":"مكالمة مجانية لمدة 30 دقيقة. بلا ضغط، فقط استراتيجية.","cta.btn":"<span>احجز مكالمة مجانية 30 دقيقة</span>",
+"footer.about":"تصميم مواقع احترافي، أتمتة بالذكاء الاصطناعي، هوية بصرية وتسويق للشركات الطموحة في النمو.","footer.tagline":"ابنِ. أَتمِت. انمُ.","footer.reg":"شركة مسجّلة في المملكة المتحدة · تحقق عبر Companies House",
+"footer.services":"الخدمات","footer.s1":"تطوير المواقع","footer.s2":"أتمتة الذكاء الاصطناعي","footer.s3":"الهوية البصرية","footer.s4":"الإعلانات الرقمية","footer.s5":"أنظمة نقاط البيع",
+"footer.company":"الشركة","footer.c1":"أعمالنا","footer.c2":"تواصل معنا","footer.c3":"سياسة الخصوصية","footer.c4":"شروط الخدمة","footer.c5":"سياسة الكوكيز",
+"footer.touch":"تواصل معنا","footer.copy":"© 2026 Palqum LTD. جميع الحقوق محفوظة. رقم الشركة 17326987، مسجّلة في إنجلترا وويلز.","footer.made":"صُنع بـ ❤️ للشركات الجادة في عملها"
+}
+};
+
+window.PLANS = [
+  {id:'starter',price:799,featured:false,
+    en:{name:'Starter',desc:'Perfect for small businesses and personal brands.',feats:['5-page responsive website','Mobile-first design','Basic SEO setup','Contact form integration','30-day support']},
+    ar:{name:'الأساسية',desc:'مثالية للأعمال الصغيرة والعلامات الشخصية.',feats:['موقع متجاوب من 5 صفحات','تصميم يبدأ من الجوال','إعداد أساسي لمحركات البحث','نموذج تواصل مدمج','دعم لمدة 30 يومًا']}},
+  {id:'growth',price:1499,featured:true,
+    en:{name:'Growth',desc:'For growing businesses ready to convert visitors to customers.',feats:['10-page responsive website','Custom design system','Advanced SEO + schema markup','Google Analytics 4 setup','Speed optimisation','60-day support']},
+    ar:{name:'النمو',desc:'للأعمال النامية الجاهزة لتحويل الزوار إلى عملاء.',feats:['موقع متجاوب من 10 صفحات','نظام تصميم مخصص','تهيئة متقدمة + بيانات Schema','إعداد Google Analytics 4','تحسين سرعة الموقع','دعم لمدة 60 يومًا']}},
+  {id:'ent',price:2999,featured:false,
+    en:{name:'Enterprise',desc:'Full-scale web presence for ambitious businesses.',feats:['Unlimited pages','Custom CMS integration','E-commerce functionality','Advanced analytics dashboard','Performance audit','Priority support - 1 year']},
+    ar:{name:'المؤسسات',desc:'حضور رقمي شامل للأعمال الطموحة.',feats:['صفحات غير محدودة','ربط نظام إدارة محتوى مخصص','ميزات المتجر الإلكتروني','لوحة تحليلات متقدمة','تدقيق الأداء','دعم ذو أولوية لمدة سنة']}}
+];
+</script>
+</body>
+</html>

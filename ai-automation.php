@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Automations — Palqum</title>
+<meta name="description" content="Intelligent systems that work while you sleep. AI lead qualification, chatbots, CRM integration.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Manrope:wght@400;500;600;700;800&family=Cairo:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="nav-wrap">
+  <nav class="nav" id="nav">
+    <a href="/" class="brand"><span class="mark">PQ</span><span>Palqum</span></a>
+    <div class="nav-links">
+      <a href="/#services" data-i18n="nav.services">Services</a>
+      <a href="/#why-us" data-i18n="nav.why">Why Us</a>
+      <a href="/#results" data-i18n="nav.results">Results</a>
+      <a href="/#pricing" data-i18n="nav.pricing">Pricing</a>
+      <a href="/#contact" data-i18n="nav.contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <button class="lang-btn" id="langBtn"><svg class="icon" width="14" height="14"><use href="assets/icons.svg#i-globe"/></svg><span id="langLabel">العربية</span></button>
+      <a href="/#contact" class="btn btn-primary btn-sm" data-i18n="nav.cta"><span>Book a Free Call</span><svg class="icon" width="14" height="14"><use href="assets/icons.svg#i-arrow"/></svg></a>
+      <button class="hamburger" id="hamburger"><svg class="icon" width="18" height="18"><use href="assets/icons.svg#i-menu"/></svg></button>
+    </div>
+  </nav>
+</div>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-panel">
+    <button class="mobile-close" id="mobileClose"><svg class="icon" width="16" height="16"><use href="assets/icons.svg#i-close"/></svg></button>
+    <a href="/#services" data-i18n="nav.services">Services</a>
+    <a href="/#why-us" data-i18n="nav.why">Why Us</a>
+    <a href="/#results" data-i18n="nav.results">Results</a>
+    <a href="/#pricing" data-i18n="nav.pricing">Pricing</a>
+    <a href="/#contact" data-i18n="nav.contact">Contact</a>
+    <a href="/#contact" class="btn btn-primary" data-i18n="nav.cta">Book a Free Call</a>
+  </div>
+</div>
+
+<header class="hero service-hero">
+  <div class="hero-bg"><div class="dot-grid"></div><div class="blob blob-1"></div><div class="blob blob-2"></div></div>
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-badges">
+        <span class="badge" data-i18n="hero.badge1">AI Automations</span>
+        <span class="badge pop"><svg class="icon" width="13" height="13"><use href="assets/icons.svg#i-shield"/></svg><span data-i18n="hero.badge2">Registered UK Company · No. 17326987</span></span>
+      </div>
+      <h1 data-i18n="hero.title">Systems That Work <span class="hl">While You Sleep</span></h1>
+      <p class="desc" data-i18n="hero.desc">Stop manually qualifying leads, answering repetitive questions, and chasing follow-ups. Our AI automation systems handle all of it - 24/7, at scale, with 94% accuracy.</p>
+      <div class="hero-cta">
+        <a href="/#contact" class="btn btn-primary" data-i18n="hero.cta1"><span>Get a Free Automation Audit</span><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-arrow"/></svg></a>
+        <a href="#included" class="btn btn-ghost" data-i18n="hero.cta2">See Use Cases</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-visual-core"></div>
+      <div class="float-card card-1">
+        <div class="fc-label"><span class="fc-dot"></span><span data-i18n="hero.fc1label">Qualification Accuracy</span></div>
+        <div class="fc-val">94%</div>
+      </div>
+      <div class="float-card card-2">
+        <div class="fc-label"><svg class="icon" width="12" height="12"><use href="assets/icons.svg#i-clock"/></svg><span data-i18n="hero.fc2label">Always On</span></div>
+        <div class="fc-title" data-i18n="hero.fc2title">24/7 Response</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="included">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="feat.eyebrow">What We Automate</div>
+      <h2 data-i18n="feat.title">Your Entire Lead Pipeline, Automated</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-target"/></svg></div><h3 data-i18n="feat.f1.t">AI Lead Qualification</h3><p data-i18n="feat.f1.d">Our AI scores every lead by budget, intent, and timeline - routing hot leads to you instantly.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-chat"/></svg></div><h3 data-i18n="feat.f2.t">24/7 Chatbots</h3><p data-i18n="feat.f2.d">Intelligent chatbots that understand context, answer questions, and book appointments automatically.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-plug"/></svg></div><h3 data-i18n="feat.f3.t">CRM Integration</h3><p data-i18n="feat.f3.d">Every lead, conversation, and outcome synced to your CRM in real time. Zero manual data entry.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-mail"/></svg></div><h3 data-i18n="feat.f4.t">Email Sequences</h3><p data-i18n="feat.f4.d">Behaviour-triggered email flows that nurture leads from first touch to closed deal.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-chart"/></svg></div><h3 data-i18n="feat.f5.t">Reporting &amp; Analytics</h3><p data-i18n="feat.f5.d">Live dashboards showing pipeline health, conversion rates, and automation performance.</p></div>
+      <div class="card reveal"><div class="ic"><svg class="icon" width="22" height="22"><use href="assets/icons.svg#i-gear"/></svg></div><h3 data-i18n="feat.f6.t">Custom Workflows</h3><p data-i18n="feat.f6.d">We map your exact process and automate it - no generic templates, no compromises.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="proc.eyebrow">How It Works</div>
+      <h2 data-i18n="proc.title">From Discovery to Live in 2 Weeks</h2>
+    </div>
+    <div class="process-grid reveal">
+      <div class="process-step"><div class="num">01</div><h3 data-i18n="proc.s1.t">Automation Audit</h3><p data-i18n="proc.s1.d">We map your current workflow to identify every manual task that can be automated.</p></div>
+      <div class="process-step"><div class="num">02</div><h3 data-i18n="proc.s2.t">System Design</h3><p data-i18n="proc.s2.d">We design the automation architecture - tools, triggers, logic, integrations.</p></div>
+      <div class="process-step"><div class="num">03</div><h3 data-i18n="proc.s3.t">Build &amp; Train</h3><p data-i18n="proc.s3.d">We build the workflows, train the AI models on your data, and configure your CRM integrations.</p></div>
+      <div class="process-step"><div class="num">04</div><h3 data-i18n="proc.s4.t">Test &amp; Refine</h3><p data-i18n="proc.s4.d">Live testing with real leads. We monitor accuracy and refine until you're above 90%.</p></div>
+      <div class="process-step"><div class="num">05</div><h3 data-i18n="proc.s5.t">Go Live &amp; Monitor</h3><p data-i18n="proc.s5.d">We launch, monitor for 30 days, and hand over with full documentation.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="stats-row reveal">
+      <div class="stat-box"><b>94%</b><span data-i18n="stats.s1">Lead Qualification Accuracy</span></div>
+      <div class="stat-box"><b>40h</b><span data-i18n="stats.s2">Hours Saved Per Week</span></div>
+      <div class="stat-box"><b>847%</b><span data-i18n="stats.s3">Lead Volume Increase</span></div>
+      <div class="stat-box"><b>28s</b><span data-i18n="stats.s4">Avg Response Time</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow" style="justify-content:center" data-i18n="pricing.eyebrow">Pricing</div>
+      <h2 data-i18n="pricing.title">AI Automation Pricing</h2>
+    </div>
+    <div class="pricing-controls reveal" style="justify-content:center">
+      <div class="tab-group" id="currencyTabs">
+        <button class="active" data-cur="USD">USD</button>
+        <button data-cur="EUR">EUR</button>
+        <button data-cur="ILS">ILS ₪</button>
+      </div>
+    </div>
+    <div class="price-grid reveal" id="priceGrid"></div>
+    <p class="price-note" data-i18n="pricing.note">All AI plans include a free discovery call to map your exact workflow.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="container">
+    <div class="cta-band reveal">
+      <h2 data-i18n="cta.title">Ready to Stop Doing the Work Your AI Could Do?</h2>
+      <p data-i18n="cta.desc">Book a free automation audit - we'll show you exactly what's costing you time and money.</p>
+      <a href="/#contact" class="btn btn-primary" data-i18n="cta.btn"><span>Book a Free Audit</span><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-about">
+      <a href="/" class="brand"><span class="mark">PQ</span><span>Palqum</span></a>
+      <p data-i18n="footer.about">Premium web design, AI automations, branding and marketing for businesses that want to grow.</p>
+      <div class="footer-tagline" data-i18n="footer.tagline">BUILD. AUTOMATE. GROW.</div>
+      <div class="badge pop" style="margin-top:16px"><svg class="icon" width="13" height="13"><use href="assets/icons.svg#i-shield"/></svg><span data-i18n="footer.reg">Registered UK Company · Verify on Companies House</span></div>
+    </div>
+    <div>
+      <h4 data-i18n="footer.services">Services</h4>
+      <ul>
+        <li><a href="/web-development.php" data-i18n="footer.s1">Web Development</a></li>
+        <li><a href="/ai-automation.php" data-i18n="footer.s2">AI Automations</a></li>
+        <li><a href="/branding.php" data-i18n="footer.s3">Branding</a></li>
+        <li><a href="/ads.php" data-i18n="footer.s4">Digital Ads</a></li>
+        <li><a href="/pos.php" data-i18n="footer.s5">POS Systems</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.company">Company</h4>
+      <ul>
+        <li><a href="/portfolio.php" data-i18n="footer.c1">Portfolio</a></li>
+        <li><a href="/#contact" data-i18n="footer.c2">Contact</a></li>
+        <li><a href="/privacy.php" data-i18n="footer.c3">Privacy Policy</a></li>
+        <li><a href="/terms.php" data-i18n="footer.c4">Terms of Service</a></li>
+        <li><a href="/cookies.php" data-i18n="footer.c5">Cookie Policy</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.touch">Get in Touch</h4>
+      <div class="contact-line" style="margin-top:0"><span class="ic"><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-mail"/></svg></span><span style="font-size:14px">Support@palqum.com</span></div>
+      <div class="contact-line"><span class="ic"><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-wa"/></svg></span><span style="font-size:14px">+972 56-921-4745</span></div>
+      <div class="contact-line"><span class="ic"><svg class="icon" width="15" height="15"><use href="assets/icons.svg#i-pin"/></svg></span><span style="font-size:13.5px">128 City Road, London, EC1V 2NX, United Kingdom</span></div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span data-i18n="footer.copy">© 2026 Palqum LTD. All rights reserved. Company No. 17326987, registered in England &amp; Wales.</span>
+    <span data-i18n="footer.made">Made with ❤️ for businesses that mean business</span>
+  </div>
+</footer>
+
+<a href="https://wa.me/972569214745" target="_blank" rel="noopener" class="fab" aria-label="WhatsApp"><svg class="icon" width="26" height="26"><use href="assets/icons.svg#i-wa"/></svg></a>
+
+<script src="js/common.js"></script>
+<script>
+window.I18N = {
+en:{
+"nav.services":"Services","nav.why":"Why Us","nav.results":"Results","nav.pricing":"Pricing","nav.contact":"Contact","nav.cta":"<span>Book a Free Call</span>",
+"hero.badge1":"AI Automations","hero.badge2":"Registered UK Company · No. 17326987",
+"hero.title":"Systems That Work <span class=\"hl\">While You Sleep</span>",
+"hero.desc":"Stop manually qualifying leads, answering repetitive questions, and chasing follow-ups. Our AI automation systems handle all of it - 24/7, at scale, with 94% accuracy.",
+"hero.cta1":"<span>Get a Free Automation Audit</span>","hero.cta2":"See Use Cases",
+"hero.fc1label":"Qualification Accuracy","hero.fc2label":"Always On","hero.fc2title":"24/7 Response",
+"feat.eyebrow":"What We Automate","feat.title":"Your Entire Lead Pipeline, Automated",
+"feat.f1.t":"AI Lead Qualification","feat.f1.d":"Our AI scores every lead by budget, intent, and timeline - routing hot leads to you instantly.",
+"feat.f2.t":"24/7 Chatbots","feat.f2.d":"Intelligent chatbots that understand context, answer questions, and book appointments automatically.",
+"feat.f3.t":"CRM Integration","feat.f3.d":"Every lead, conversation, and outcome synced to your CRM in real time. Zero manual data entry.",
+"feat.f4.t":"Email Sequences","feat.f4.d":"Behaviour-triggered email flows that nurture leads from first touch to closed deal.",
+"feat.f5.t":"Reporting &amp; Analytics","feat.f5.d":"Live dashboards showing pipeline health, conversion rates, and automation performance.",
+"feat.f6.t":"Custom Workflows","feat.f6.d":"We map your exact process and automate it - no generic templates, no compromises.",
+"proc.eyebrow":"How It Works","proc.title":"From Discovery to Live in 2 Weeks",
+"proc.s1.t":"Automation Audit","proc.s1.d":"We map your current workflow to identify every manual task that can be automated.",
+"proc.s2.t":"System Design","proc.s2.d":"We design the automation architecture - tools, triggers, logic, integrations.",
+"proc.s3.t":"Build &amp; Train","proc.s3.d":"We build the workflows, train the AI models on your data, and configure your CRM integrations.",
+"proc.s4.t":"Test &amp; Refine","proc.s4.d":"Live testing with real leads. We monitor accuracy and refine until you're above 90%.",
+"proc.s5.t":"Go Live &amp; Monitor","proc.s5.d":"We launch, monitor for 30 days, and hand over with full documentation.",
+"stats.s1":"Lead Qualification Accuracy","stats.s2":"Hours Saved Per Week","stats.s3":"Lead Volume Increase","stats.s4":"Avg Response Time",
+"pricing.eyebrow":"Pricing","pricing.title":"AI Automation Pricing","pricing.note":"All AI plans include a free discovery call to map your exact workflow.",
+"cta.title":"Ready to Stop Doing the Work Your AI Could Do?","cta.desc":"Book a free automation audit - we'll show you exactly what's costing you time and money.","cta.btn":"<span>Book a Free Audit</span>",
+"footer.about":"Premium web design, AI automations, branding and marketing for businesses that want to grow.","footer.tagline":"BUILD. AUTOMATE. GROW.","footer.reg":"Registered UK Company · Verify on Companies House",
+"footer.services":"Services","footer.s1":"Web Development","footer.s2":"AI Automations","footer.s3":"Branding","footer.s4":"Digital Ads","footer.s5":"POS Systems",
+"footer.company":"Company","footer.c1":"Portfolio","footer.c2":"Contact","footer.c3":"Privacy Policy","footer.c4":"Terms of Service","footer.c5":"Cookie Policy",
+"footer.touch":"Get in Touch","footer.copy":"© 2026 Palqum LTD. All rights reserved. Company No. 17326987, registered in England &amp; Wales.","footer.made":"Made with ❤️ for businesses that mean business"
+},
+ar:{
+"nav.services":"الخدمات","nav.why":"لماذا نحن","nav.results":"النتائج","nav.pricing":"الأسعار","nav.contact":"تواصل معنا","nav.cta":"<span>احجز مكالمة مجانية</span>",
+"hero.badge1":"أتمتة الذكاء الاصطناعي","hero.badge2":"شركة مسجّلة في المملكة المتحدة · رقم 17326987",
+"hero.title":"أنظمة تعمل <span class=\"hl\">حتى وأنت نائم</span>",
+"hero.desc":"توقف عن تأهيل العملاء المحتملين يدويًا، والرد على الأسئلة المتكررة، وملاحقة المتابعات. أنظمة الأتمتة لدينا تتولى كل ذلك - على مدار الساعة، وبدقة 94%.",
+"hero.cta1":"<span>احصل على تدقيق أتمتة مجاني</span>","hero.cta2":"شاهد حالات الاستخدام",
+"hero.fc1label":"دقة التأهيل","hero.fc2label":"متاح دائمًا","hero.fc2title":"استجابة على مدار الساعة",
+"feat.eyebrow":"ماذا نُؤتمت","feat.title":"مسار عملائك المحتملين بالكامل، مؤتمت",
+"feat.f1.t":"تأهيل العملاء بالذكاء الاصطناعي","feat.f1.d":"يقيّم الذكاء الاصطناعي كل عميل محتمل حسب الميزانية والنية والجدول الزمني - ويوجّه العملاء الجادين إليك فورًا.",
+"feat.f2.t":"محادثة آلية على مدار الساعة","feat.f2.d":"روبوتات محادثة ذكية تفهم السياق، وتجيب عن الأسئلة، وتحجز المواعيد تلقائيًا.",
+"feat.f3.t":"ربط مع أنظمة CRM","feat.f3.d":"كل عميل محتمل ومحادثة ونتيجة تُزامَن مع نظام CRM لحظيًا. بلا إدخال بيانات يدوي.",
+"feat.f4.t":"سلاسل بريد إلكتروني","feat.f4.d":"رسائل بريد مُفعّلة حسب سلوك العميل، ترافقه من أول تواصل حتى إتمام الصفقة.",
+"feat.f5.t":"تقارير وتحليلات","feat.f5.d":"لوحات مباشرة تعرض صحة مسار المبيعات، معدلات التحويل، وأداء الأتمتة.",
+"feat.f6.t":"مسارات عمل مخصصة","feat.f6.d":"نرسم مسار عملك بالضبط ونؤتمته - بلا قوالب عامة وبلا تنازلات.",
+"proc.eyebrow":"آلية عملنا","proc.title":"من الاستكشاف إلى الإطلاق خلال أسبوعين",
+"proc.s1.t":"تدقيق الأتمتة","proc.s1.d":"نرسم مسار عملك الحالي لتحديد كل مهمة يدوية يمكن أتمتتها.",
+"proc.s2.t":"تصميم النظام","proc.s2.d":"نصمم بنية الأتمتة - الأدوات، المحفزات، المنطق، والتكاملات.",
+"proc.s3.t":"البناء والتدريب","proc.s3.d":"نبني مسارات العمل، وندرّب نماذج الذكاء الاصطناعي على بياناتك، ونُعدّ تكاملات CRM.",
+"proc.s4.t":"الاختبار والتحسين","proc.s4.d":"اختبار مباشر مع عملاء حقيقيين. نراقب الدقة ونحسّنها حتى نتجاوز 90%.",
+"proc.s5.t":"الإطلاق والمتابعة","proc.s5.d":"نُطلق النظام، نراقبه لمدة 30 يومًا، ونسلّمك إياه مع توثيق كامل.",
+"stats.s1":"دقة تأهيل العملاء المحتملين","stats.s2":"ساعة موفّرة أسبوعيًا","stats.s3":"زيادة حجم العملاء المحتملين","stats.s4":"متوسط زمن الاستجابة",
+"pricing.eyebrow":"الأسعار","pricing.title":"أسعار أتمتة الذكاء الاصطناعي","pricing.note":"جميع باقات الذكاء الاصطناعي تشمل مكالمة استكشافية مجانية لرسم مسار عملك بالضبط.",
+"cta.title":"جاهز للتوقف عن القيام بعمل يمكن للذكاء الاصطناعي إنجازه؟","cta.desc":"احجز تدقيق أتمتة مجاني - سنُريك بالضبط ما الذي يكلفك وقتًا ومالًا.","cta.btn":"<span>احجز تدقيقًا مجانيًا</span>",
+"footer.about":"تصميم مواقع احترافي، أتمتة بالذكاء الاصطناعي، هوية بصرية وتسويق للشركات الطموحة في النمو.","footer.tagline":"ابنِ. أَتمِت. انمُ.","footer.reg":"شركة مسجّلة في المملكة المتحدة · تحقق عبر Companies House",
+"footer.services":"الخدمات","footer.s1":"تطوير المواقع","footer.s2":"أتمتة الذكاء الاصطناعي","footer.s3":"الهوية البصرية","footer.s4":"الإعلانات الرقمية","footer.s5":"أنظمة نقاط البيع",
+"footer.company":"الشركة","footer.c1":"أعمالنا","footer.c2":"تواصل معنا","footer.c3":"سياسة الخصوصية","footer.c4":"شروط الخدمة","footer.c5":"سياسة الكوكيز",
+"footer.touch":"تواصل معنا","footer.copy":"© 2026 Palqum LTD. جميع الحقوق محفوظة. رقم الشركة 17326987، مسجّلة في إنجلترا وويلز.","footer.made":"صُنع بـ ❤️ للشركات الجادة في عملها"
+}
+};
+
+window.PLANS = [
+  {id:'basic',price:499,featured:false,
+    en:{name:'Basic',desc:'Automate your most repetitive business task.',feats:['1 automation workflow','Email / form lead capture','Basic CRM sync','14-day support']},
+    ar:{name:'الأساسية',desc:'أتمتة أكثر مهامك التكرارية.',feats:['مسار أتمتة واحد','التقاط العملاء عبر البريد أو النماذج','مزامنة أساسية مع CRM','دعم لمدة 14 يومًا']}},
+  {id:'pro',price:999,featured:true,
+    en:{name:'Professional',desc:'Multi-channel automation for growing teams.',feats:['Up to 5 automation workflows','AI chatbot (24/7)','CRM full integration','Lead scoring & qualification','60-day support']},
+    ar:{name:'الاحترافية',desc:'أتمتة متعددة القنوات للفرق النامية.',feats:['حتى 5 مسارات أتمتة','روبوت محادثة ذكي على مدار الساعة','ربط كامل مع CRM','تقييم وتأهيل العملاء المحتملين','دعم لمدة 60 يومًا']}},
+  {id:'ent',price:null,featured:false,
+    en:{name:'Enterprise',desc:'Bespoke AI systems for complex operations.',feats:['Unlimited workflows','Custom AI model fine-tuning','API integrations (any stack)','Dedicated account manager','SLA guarantee']},
+    ar:{name:'المؤسسات',desc:'أنظمة ذكاء اصطناعي مخصصة للعمليات المعقدة.',feats:['مسارات غير محدودة','تدريب نماذج ذكاء اصطناعي مخصصة','تكامل عبر API مع أي نظام','مدير حساب مخصص','ضمان اتفاقية مستوى الخدمة']}}
+];
+</script>
+</body>
+</html>
