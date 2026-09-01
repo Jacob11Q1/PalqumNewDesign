@@ -174,10 +174,10 @@ export const SERVICE_PLANS = {
 };
 
 export const WORK_ITEMS = [
-  { name:'GoMedia Design Agency', grad:['#4C3AA0','#7C5CFF'] },
-  { name:'Lavanda Shisha Lounge', grad:['#8C5A0E','#D8FA46'], lift:'+312%' },
-  { name:'DanialFactory Store', grad:['#2F6B4F','#5B3FD6'], lift:'+152%' },
-  { name:'JB Carpentry Catalog', grad:['#3A5A88','#9C86FF'] },
-  { name:'Jacob Qumsieh Portfolio', grad:['#5B3FD6','#D8FA46'] },
-  { name:'Ibrahem Qumsieh Portfolio', grad:['#A6382B','#7C5CFF'] },
+  { name:'GoMedia Design Agency', grad:['#4C3AA0','#6366F1'] },
+  { name:'Lavanda Shisha Lounge', grad:['#8C5A0E','#22D3EE'], lift:'+312%' },
+  { name:'DanialFactory Store', grad:['#2F6B4F','#4F46E5'], lift:'+152%' },
+  { name:'JB Carpentry Catalog', grad:['#3A5A88','#8B5CF6'] },
+  { name:'Jacob Qumsieh Portfolio', grad:['#4F46E5','#22D3EE'] },
+  { name:'Ibrahem Qumsieh Portfolio', grad:['#A6382B','#6366F1'] },
 ];

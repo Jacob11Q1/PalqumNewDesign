@@ -23,17 +23,17 @@ const I18N = {
 };
 
 const ITEMS = [
-  { name: 'GoMedia Design Agency', cat: 'web', grad: ['#4C3AA0', '#7C5CFF'] },
-  { name: 'Lavanda Shisha Lounge', cat: 'web', grad: ['#8C5A0E', '#D8FA46'], lift: '+312%' },
-  { name: 'DanialFactory Store', cat: 'web', grad: ['#2F6B4F', '#5B3FD6'], lift: '+152%' },
-  { name: 'JB Carpentry Catalog', cat: 'web', grad: ['#3A5A88', '#9C86FF'] },
-  { name: 'Jacob Qumsieh Portfolio', cat: 'web', grad: ['#5B3FD6', '#D8FA46'] },
-  { name: 'Ibrahem Qumsieh Portfolio', cat: 'web', grad: ['#A6382B', '#7C5CFF'] },
+  { name: 'GoMedia Design Agency', cat: 'web', grad: ['#4C3AA0', '#6366F1'] },
+  { name: 'Lavanda Shisha Lounge', cat: 'web', grad: ['#8C5A0E', '#22D3EE'], lift: '+312%' },
+  { name: 'DanialFactory Store', cat: 'web', grad: ['#2F6B4F', '#4F46E5'], lift: '+152%' },
+  { name: 'JB Carpentry Catalog', cat: 'web', grad: ['#3A5A88', '#8B5CF6'] },
+  { name: 'Jacob Qumsieh Portfolio', cat: 'web', grad: ['#4F46E5', '#22D3EE'] },
+  { name: 'Ibrahem Qumsieh Portfolio', cat: 'web', grad: ['#A6382B', '#6366F1'] },
   { name: '3alhatab Restaurant', cat: 'web', grad: ['#8C5A0E', '#A6382B'], lift: '+312%' },
   { name: 'Sanctishell Store', cat: 'web', grad: ['#2F6B4F', '#3A5A88'] },
-  { name: 'Q Beauty Center Links Page', cat: 'web', grad: ['#7C5CFF', '#A6382B'], lift: '+152%' },
+  { name: 'Q Beauty Center Links Page', cat: 'web', grad: ['#6366F1', '#A6382B'], lift: '+152%' },
   { name: 'Doctor Fadi Abu Feda Links', cat: 'web', grad: ['#3A5A88', '#8C5A0E'] },
-  { name: 'SilentGamerz Landing Page', cat: 'web', grad: ['#5B3FD6', '#2F6B4F'] },
+  { name: 'SilentGamerz Landing Page', cat: 'web', grad: ['#4F46E5', '#2F6B4F'] },
 ];
 
 const FILTERS = ['all', 'web', 'ai', 'brand', 'ads', 'pos'];

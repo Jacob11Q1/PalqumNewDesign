@@ -9,7 +9,7 @@ other:
 
 | | Where | Stack | Use it if... |
 |---|---|---|---|
-| **HTML version** | project root (`index.html`, `web-development.php`, ...) | Plain HTML/CSS/JS, zero build step | You want to upload files straight to a PHP host and be done |
+| **HTML version** | project root (`index.html`, `web-development.html`, ...) | Plain HTML/CSS/JS, zero build step | You want to upload files straight to any static host and be done |
 | **React version** | `react-app/` | React + Vite | You want components, want to keep extending the site as an app, or plan to hand it to a developer long-term |
 
 Both look and behave identically — same design, same translations, same animations. The React
@@ -38,9 +38,10 @@ or a plain web server) — it's a fully static site once built, no Node needed o
 
 ## Quick start — HTML version
 
-No install needed. Open `index.html` directly, or serve the folder with any static server /
-your PHP host. The `.php` extension on pages is only there to match the live site's existing
-URLs — none of them contain PHP code.
+No install needed. Open `index.html` directly (double-click it), or serve the folder with any
+static server / host. Every internal link between pages is a relative path (`web-development.html`,
+not `/web-development.html`), so it works exactly the same whether you're opening the file
+straight off your disk or the whole folder is deployed to a real domain.
 
 ---
 
@@ -57,7 +58,7 @@ Every string exists twice — once under `en:` and once under `ar:` — find the
 edit it, then edit the matching Arabic line just below/near it. Save, and if `npm run dev` is
 running the page updates instantly.
 
-**HTML version:** open the page's `.html`/`.php` file, scroll to the bottom `<script>` block,
+**HTML version:** open the page's `.html` file, scroll to the bottom `<script>` block,
 find `window.I18N = { en: {...}, ar: {...} }`, edit the same way.
 
 ## I want to change a color, font, or spacing
@@ -69,6 +70,8 @@ Everything design-related is in one file:
 
 Colors are CSS variables at the very top (`--bg`, `--accent`, `--pop`, etc.) — change the
 variable once and it updates everywhere. Fonts are the `--ff-*` variables right below the colors.
+The palette is pulled from the real `palqum.com` (near-black background, indigo→violet button
+gradient, cyan accent) — if that site's brand colors change, update the tokens here to match.
 
 ## I want to add a whole new page
 
@@ -94,7 +97,7 @@ or replace it with real per-currency prices if you'd rather set those directly.
   project screenshots when you have them (`WORK_ITEMS` in `homeContent.js`, `ITEMS` in
   `Portfolio.jsx`).
 - ⚠️ **EUR/ILS prices are estimated conversions**, not confirmed real pricing.
-- ⚠️ **`ads.php` / the Ads service page pricing tiers are newly written** — the live site's ads
+- ⚠️ **`ads.html` / the Ads service page pricing tiers are newly written** — the live site's ads
   pricing section has a data bug (it was showing branding prices), so these three tiers are
   original numbers pending your confirmation, not pulled from anywhere.
 - ⚠️ **Legal pages (Privacy/Terms/Cookies) are English-only.** Translating legal text

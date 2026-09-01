@@ -36,9 +36,9 @@ export default function UnderTheHood() {
               <div className="hood-chart">
                 <div className="l">{t('hood.chart')}</div>
                 <svg viewBox="0 0 400 80" width="100%" height="80" preserveAspectRatio="none">
-                  <defs><linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor="#D8FA46" stopOpacity=".35" /><stop offset="100%" stopColor="#D8FA46" stopOpacity="0" /></linearGradient></defs>
+                  <defs><linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor="#22D3EE" stopOpacity=".35" /><stop offset="100%" stopColor="#22D3EE" stopOpacity="0" /></linearGradient></defs>
                   <path d="M0,60 L35,55 L70,58 L105,42 L140,48 L175,30 L210,36 L245,20 L280,26 L315,14 L350,18 L400,6 L400,80 L0,80 Z" fill="url(#chartFill)" />
-                  <path d="M0,60 L35,55 L70,58 L105,42 L140,48 L175,30 L210,36 L245,20 L280,26 L315,14 L350,18 L400,6" fill="none" stroke="#D8FA46" strokeWidth="2" />
+                  <path d="M0,60 L35,55 L70,58 L105,42 L140,48 L175,30 L210,36 L245,20 L280,26 L315,14 L350,18 L400,6" fill="none" stroke="#22D3EE" strokeWidth="2" />
                 </svg>
               </div>
             </div>
